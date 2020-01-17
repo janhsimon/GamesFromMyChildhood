@@ -1,0 +1,14 @@
+﻿img {
+  max-width: 320px;
+  max-height: 200px;
+}
+
+p {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+td {
+  text-align: center;
+}
