@@ -1,14 +1,26 @@
-﻿img {
+﻿#container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+
+#cell {
+  background: #EDE7F6;
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  font: bold 16px system-ui;
+  margin: 20px;
+}
+
+img {
   max-width: 320px;
   max-height: 200px;
 }
 
 p {
-  font-weight: bold;
   margin-top: 5px;
-  margin-bottom: 25px;
-}
-
-td {
-  text-align: center;
+  margin-bottom: 5px;
 }

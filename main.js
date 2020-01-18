@@ -1,31 +1,53 @@
 function main() {
-  const table = document.createElement('table');
+  const container = document.createElement('div');
+  container.id = "container";
 
-  let row;
   for (let game = 0; game < games.length; game++) {
-    if (game % 4 == 0) {
-      if (row) {
-        table.appendChild(row);
-      }
-      row = document.createElement('tr');
-    }
-
     const gameName = games[game];
-    const cell = document.createElement('td');
-
+    
+    const cell = document.createElement('div');
+    cell.id = "cell";
+    
     const image = document.createElement('img');
     image.src = "img/" + getImageName(gameName.toLowerCase());
     cell.appendChild(image);
-
+    
     const title = document.createElement('p');
     title.innerText = gameName;
     cell.appendChild(title);
 
-    row.appendChild(cell);
+    container.appendChild(cell);
   }
-  table.appendChild(row);
 
-  document.body.appendChild(table);
+  document.body.appendChild(container);
+
+  // const table = document.createElement('table');
+
+  // let row;
+  // for (let game = 0; game < games.length; game++) {
+  //   if (game % 4 == 0) {
+  //     if (row) {
+  //       table.appendChild(row);
+  //     }
+  //     row = document.createElement('tr');
+  //   }
+
+  //   const gameName = games[game];
+  //   const cell = document.createElement('td');
+
+  //   const image = document.createElement('img');
+  //   image.src = "img/" + getImageName(gameName.toLowerCase());
+  //   cell.appendChild(image);
+
+  //   const title = document.createElement('p');
+  //   title.innerText = gameName;
+  //   cell.appendChild(title);
+
+  //   row.appendChild(cell);
+  // }
+  // table.appendChild(row);
+
+  // document.body.appendChild(table);
 }
 
 function getImageName(gameName) {
