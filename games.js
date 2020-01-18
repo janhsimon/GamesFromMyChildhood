@@ -1,4 +1,4 @@
-let games = [
+const games = [
   '3D Ultra Pinball',
   '3D Ultra Minigolf',
   'Action Soccer',
