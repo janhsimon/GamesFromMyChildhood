@@ -10,8 +10,12 @@
   text-align: center;
 }
 
+.title {
+  font-weight: bold;
+}
+
 body {
-  font: bold 16px system-ui;
+  font: 14px system-ui;
   margin: 20px;
 }
 
