@@ -1,11 +1,20 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Games from my Childhood</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="games.js"></script>
-    <script src="grid.js"></script>
-  </head>
-  <body onload="populate()"></body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Games from my Childhood</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="games.js"></script>
+  <script src="grid.js"></script>
+  <script src="filter.js"></script>
+</head>
+
+<body onload="initFilter(); initGrid()">
+  <form id="genreFilter">
+    <p class="title">Filter genre:</p>
+  </form>
+  <div id="container"></div>
+</body>
+
 </html>

@@ -4,10 +4,14 @@
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
 
-#cell {
+.cell {
   background: #EDE7F6;
   padding: 10px;
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }
 
 .title {
@@ -17,6 +21,12 @@
 body {
   font: 14px system-ui;
   margin: 20px;
+}
+
+form {
+  background: #EDE7F6;
+  margin: 10px;
+  padding: 10px;
 }
 
 img {
