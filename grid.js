@@ -2,8 +2,8 @@ function initGrid() {
   games.sort(compareGames);
 
   const container = document.getElementById("container");
-  for (let i = 0; i < games.length; i++) {
-    container.appendChild(createCell(games[i]));
+  for (const game in games) {
+    container.appendChild(createCell(games[game]));
   }
 }
 
@@ -36,7 +36,7 @@ function createCell(game) {
   title.innerText = game.title;
 
   const genre = document.createElement("p");
-  genre.innerText = game.genre[0];
+  genre.innerText = game.genre.NAME;
 
   const cell = document.createElement("div");
   cell.className = "cell";
@@ -49,7 +49,7 @@ function createCell(game) {
 function getImageName(gameName) {
   let imageName = "img/";
 
-  for (let i = 0; i < gameName.length; i++) {
+  for (const i in gameName) {
     const code = gameName.charCodeAt(i);
     if ((code > 47 && code < 58) || // numeric (0-9)
       (code > 96 && code < 123)) { // lower alpha (a-z)

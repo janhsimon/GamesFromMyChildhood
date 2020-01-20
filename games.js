@@ -1,17 +1,17 @@
 const genres = {
-  ACTION: ["Action", 0],
-  ADVENTURE: ["Point & Click Adventure", 1],
-  FPS: ["First-Person Shooter", 2],
-  PINBALL: ["Pinball", 3],
-  PLATFORMER: ["Platformer", 4],
-  PUZZLE: ["Puzzle", 5],
-  RACING: ["Racing", 6],
-  RPG: ["Role-Playing Game", 7],
-  SCROLLING_SHOOTER: ["Scrolling Shooter", 8],
-  SIMULATION: ["Simulation", 9],
-  SPORTS: ["Sports", 10],
-  STRATEGY: ["Strategy", 11],
-  TPS: ["Third-Person Shooter", 12]
+  ACTION: { NAME: "Action", ID: 0 },
+  ADVENTURE: { NAME: "Point & Click Adventure", ID: 1 },
+  FPS: { NAME: "First-Person Shooter", ID: 2 },
+  PINBALL: { NAME: "Pinball", ID: 3 },
+  PLATFORMER: { NAME: "Platformer", ID: 4 },
+  PUZZLE: { NAME: "Puzzle", ID: 5 },
+  RACING: { NAME: "Racing", ID: 6 },
+  RPG: { NAME: "Role-Playing Game", ID: 7 },
+  SCROLLING_SHOOTER: { NAME: "Scrolling Shooter", ID: 8 },
+  SIMULATION: { NAME: "Simulation", ID: 9 },
+  SPORTS: { NAME: "Sports", ID: 10 },
+  STRATEGY: { NAME: "Strategy", ID: 11 },
+  TPS: { NAME: "Third-Person Shooter", ID: 12 }
 }
 
 const games = [
