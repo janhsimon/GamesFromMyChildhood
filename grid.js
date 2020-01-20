@@ -3,25 +3,37 @@ function populate() {
   container.id = "container";
 
   for (let i = 0; i < games.length; i++) {
-    const image = document.createElement('img');
-    image.src = getImageName(games[i].title.toLowerCase());
-    
-    const title = document.createElement('p');
-    title.className = "title";
-    title.innerText = games[i].title;
-    
-    const genre = document.createElement('p');
-    genre.innerText = games[i].genre;
-    
-    const cell = document.createElement('div');
-    cell.id = "cell";
-    cell.appendChild(image);
-    cell.appendChild(title);
-    cell.appendChild(genre);
-    container.appendChild(cell);
+    container.appendChild(createCell(games[i]));
   }
 
   document.body.appendChild(container);
+}
+
+function createCell(game) {
+  const imageName = getImageName(game.title.toLowerCase());
+
+  const link = document.createElement('a');
+  link.href = imageName;
+  link.target = "_blank";
+
+  const image = document.createElement('img');
+  image.src = imageName;
+
+  link.appendChild(image);
+  
+  const title = document.createElement('p');
+  title.className = "title";
+  title.innerText = game.title;
+
+  const genre = document.createElement('p');
+  genre.innerText = game.genre;
+
+  const cell = document.createElement('div');
+  cell.id = "cell";
+  cell.appendChild(link);
+  cell.appendChild(title);
+  cell.appendChild(genre);
+  return cell;
 }
 
 function getImageName(gameName) {

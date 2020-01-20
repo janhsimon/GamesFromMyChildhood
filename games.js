@@ -15,8 +15,8 @@ const genres = {
 }
 
 const games = [
-  { title: '3D Ultra Pinball', genre: genres.PINBALL},
   { title: '3D Ultra Minigolf', genre: genres.SPORTS},
+  { title: '3D Ultra Pinball', genre: genres.PINBALL},
   { title: 'Action Soccer', genre: genres.SPORTS},
   { title: 'Actua Soccer', genre: genres.SPORTS},
   { title: 'Aladdin', genre: genres.PLATFORMER},
@@ -40,7 +40,7 @@ const games = [
   { title: 'GateWorld', genre: genres.PLATFORMER},
   { title: 'Glider 4.0', genre: genres.ACTION},
   { title: 'Hugo', genre: genres.ACTION},
-  { title: 'Ignition (Bleifuss Fun)', genre: genres.RACING},
+  { title: 'Ignition', genre: genres.RACING},
   { title: 'Indiana Jones and the Fate of Atlantis', genre: genres.ADVENTURE},
   { title: 'Jetpack', genre: genres.PLATFORMER},
   { title: 'Jill of the Jungle', genre: genres.PLATFORMER},
