@@ -35,6 +35,7 @@ const games = [
   { title: "Death Rally", genre: genres.RACING },
   { title: "Eight Ball Deluxe", genre: genres.PINBALL },
   { title: "Epic Pinball", genre: genres.PINBALL },
+  { title: "Extreme Assault", genre: genres.SIMULATION },
   { title: "Fire Fight", genre: genres.ACTION },
   { title: "Galactix", genre: genres.SCROLLING_SHOOTER },
   { title: "GateWorld", genre: genres.PLATFORMER },
