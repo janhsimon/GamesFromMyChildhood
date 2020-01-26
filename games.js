@@ -1,96 +1,109 @@
 const genres = {
-  ACTION: { NAME: "Action", ID: 0 },
-  ADVENTURE: { NAME: "Point & Click Adventure", ID: 1 },
-  FPS: { NAME: "First-Person Shooter", ID: 2 },
-  PINBALL: { NAME: "Pinball", ID: 3 },
-  PLATFORMER: { NAME: "Platformer", ID: 4 },
-  PUZZLE: { NAME: "Puzzle", ID: 5 },
-  RACING: { NAME: "Racing", ID: 6 },
-  RPG: { NAME: "Role-Playing Game", ID: 7 },
-  SCROLLING_SHOOTER: { NAME: "Scrolling Shooter", ID: 8 },
-  SIMULATION: { NAME: "Simulation", ID: 9 },
-  SPORTS: { NAME: "Sports", ID: 10 },
-  STRATEGY: { NAME: "Strategy", ID: 11 },
-  TPS: { NAME: "Third-Person Shooter", ID: 12 }
+  action: { name: "Action", id: 0 },
+  fighting: { name: "Fighting", id: 1 },
+  firstPersonShooter: { name: "First-Person Shooter", id: 2 },
+  pinball: { name: "Pinball", id: 3 },
+  platformer: { name: "Platformer", id: 4 },
+  pointAndClickAdventure: { name: "Point & Click Adventure", id: 5 },
+  puzzle: { name: "Puzzle", id: 6 },
+  racing: { name: "Racing", id: 7 },
+  rolePlayingGame: { name: "Role-Playing Game", id: 8 },
+  scrollingShooter: { name: "Scrolling Shooter", id: 9 },
+  simulation: { name: "Simulation", id: 10 },
+  sports: { name: "Sports", id: 11 },
+  strategy: { name: "Strategy", id: 12 },
+  thirdPersonShooter: { name: "Third-Person Shooter", id: 13 }
+}
+
+const platforms = {
+  arcade: { name: "Arcade", id: 0 },
+  dos: { name: "DOS", id: 1 },
+  win3x: { name: "Windows 3.x", id: 2 },
+  win95: { name: "Windows 95", id: 3 },
+  win98: { name: "Windows 98", id: 4 },
+  winxp: { name: "Windows XP", id: 5 },
+  ps1: { name: "Playstation 1", id: 6 },
+  ps2: { name: "Playstation 2", id: 7 }
 }
 
 const games = [
-  { title: "3D Ultra Minigolf", genre: genres.SPORTS },
-  { title: "3D Ultra Pinball", genre: genres.PINBALL },
-  { title: "Action Soccer", genre: genres.SPORTS },
-  { title: "Actua Soccer", genre: genres.SPORTS },
-  { title: "Aladdin", genre: genres.PLATFORMER },
-  { title: "Anno 1602", genre: genres.STRATEGY },
-  { title: "Arcade America", genre: genres.PLATFORMER },
-  { title: "Battle Chess", genre: genres.PUZZLE },
-  { title: "Bernie", genre: genres.PUZZLE },
-  { title: "Charlie the Clown", genre: genres.PLATFORMER },
-  { title: "Comix Zone", genre: genres.PLATFORMER },
-  { title: "Commander Keen in Goodbye Galaxy", genre: genres.PLATFORMER },
-  { title: "Commander Keen in Keen Dreams", genre: genres.PLATFORMER },
-  { title: "Conflict: Desert Storm", genre: genres.TPS },
-  { title: "Crazy Gravity", genre: genres.ACTION },
-  { title: "Critical Mass", genre: genres.STRATEGY },
-  { title: "Day of the Tentacle", genre: genres.ADVENTURE },
-  { title: "Death Rally", genre: genres.RACING },
-  { title: "Eight Ball Deluxe", genre: genres.PINBALL },
-  { title: "Epic Pinball", genre: genres.PINBALL },
-  { title: "Extreme Assault", genre: genres.SIMULATION },
-  { title: "Fire Fight", genre: genres.ACTION },
-  { title: "Galactix", genre: genres.SCROLLING_SHOOTER },
-  { title: "GateWorld", genre: genres.PLATFORMER },
-  { title: "Glider 4.0", genre: genres.ACTION },
-  { title: "Hugo", genre: genres.ACTION },
-  { title: "Ignition", genre: genres.RACING },
-  { title: "Indiana Jones and the Fate of Atlantis", genre: genres.ADVENTURE },
-  { title: "Jetpack", genre: genres.PLATFORMER },
-  { title: "Jill of the Jungle", genre: genres.PLATFORMER },
-  { title: "Major Stryker", genre: genres.SCROLLING_SHOOTER },
-  { title: "Maniac Mansion", genre: genres.ADVENTURE },
-  { title: "Math Blaster Plus!", genre: genres.PUZZLE },
-  { title: "MDK", genre: genres.TPS },
-  { title: "Metal Slug", genre: genres.PLATFORMER },
-  { title: "Microsoft Flight Simulator for Windows 95", genre: genres.SIMULATION },
-  { title: "Monster Truck Madness", genre: genres.RACING },
-  { title: "Off to Europe", genre: genres.ACTION },
-  { title: "Operation Flashpoint: Cold War Crisis", genre: genres.FPS },
-  { title: "Physikus", genre: genres.PUZZLE },
-  { title: "Pipe Dream", genre: genres.PUZZLE },
-  { title: "Prince of Persia", genre: genres.PLATFORMER },
-  { title: "Professor Brösl", genre: genres.ADVENTURE },
-  { title: "Red Baron", genre: genres.SIMULATION },
-  { title: "Shooting Gallery", genre: genres.ACTION },
-  { title: "SimCity", genre: genres.STRATEGY },
-  { title: "Space Cadet", genre: genres.PINBALL },
-  { title: "SSX Tricky", genre: genres.RACING },
-  { title: "Starfire", genre: genres.SCROLLING_SHOOTER },
-  { title: "Star Trek: 25th Anniversary", genre: genres.SIMULATION },
-  { title: "Star Wars Episode 1: Racer", genre: genres.RACING },
-  { title: "Star Wars Episode 1: The Phantom Menace", genre: genres.TPS },
-  { title: "Star Wars Jedi Knight II: Jedi Outcast", genre: genres.TPS },
-  { title: "Star Wars: Rebel Assault", genre: genres.ACTION },
-  { title: "Star Wars: Rebel Assault II", genre: genres.ACTION },
-  { title: "Star Wars: Rebellion", genre: genres.STRATEGY },
-  { title: "Star Wars: Rogue Squadron", genre: genres.SIMULATION },
-  { title: "Star Wars: Shadows of the Empire", genre: genres.TPS },
-  { title: "Star Wars: X-Wing", genre: genres.SIMULATION },
-  { title: "Star Wars: X-Wing vs TIE Fighter", genre: genres.SIMULATION },
-  { title: "Star Wars: Yoda Stories", genre: genres.RPG },
-  { title: "Submarine Titans", genre: genres.STRATEGY },
-  { title: "Sudden Strike", genre: genres.STRATEGY },
-  { title: "Super Mario Bros", genre: genres.PLATFORMER },
-  { title: "Super Mario Land 3: Wario Land", genre: genres.PLATFORMER },
-  { title: "Terminal Velocity", genre: genres.SIMULATION },
-  { title: "The Games: Winter Challenge", genre: genres.SPORTS },
-  { title: "The Incredible Machine", genre: genres.PUZZLE },
-  { title: "The Lion King", genre: genres.PLATFORMER },
-  { title: "The Settlers", genre: genres.STRATEGY },
-  { title: "Tintin in Tibet", genre: genres.PLATFORMER },
-  { title: "Tristan", genre: genres.PINBALL },
-  { title: "TZ-Minigolf", genre: genres.SPORTS },
-  { title: "Vinyl Goddess from Mars", genre: genres.PLATFORMER },
-  { title: "Wolfenstein 3D", genre: genres.FPS },
-  { title: "Wolfpack", genre: genres.SIMULATION },
-  { title: "Worms", genre: genres.STRATEGY },
-  { title: "Zak McKracken and the Alien Mindbenders", genre: genres.ADVENTURE }
+  { names: ["3D Ultra Minigolf"], genre: genres.sports, platforms: [platforms.win95], release: 1997 }, // dev = Dynamix, pub = Sierra On-Line 
+  { names: ["3D Ultra Pinball"], genre: genres.pinball, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Dynamix, pub = Sierra On-Line 
+  { names: ["Action Soccer"], genre: genres.sports, platforms: [platforms.dos, platforms.win3x], release: 1995 }, // dev = Ludi Media, pub = Ubi Soft
+  { names: ["Actua Soccer"], genre: genres.sports, platforms: [platforms.dos, platforms.win95], release: 1995 }, // dev = Gremlin Interactive, pub = Greenwood Entertainment
+  { names: ["Aladdin"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Virgin Games, pub = Sega
+  { names: ["Anno 1602: Creation of a New World"], genre: genres.strategy, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Max Design, pub = Sunflowers Interactive, GT Interactive
+  { names: ["Arcade America"], genre: genres.platformer, platforms: [platforms.win95], release: 1996 }, // dev = 7th Level, pub = 7th Level
+  { names: ["Battle Chess"], genre: genres.puzzle, platforms: [platforms.dos, platforms.win3x], release: 1989 }, // dev = Interplay Productions, pub = Interplay Productions
+  { names: ["Bernie"], genre: genres.puzzle, platforms: [platforms.dos], release: 1995 }, // dev = Siemens, pub = MindLink Software
+  { names: ["Charly the Clown"], genre: genres.platformer, platforms: [platforms.dos], release: 1996 }, // dev = White Magic, pub = Schenk & Horn
+  { names: ["Comix Zone"], genre: genres.platformer, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Sega, pub = Sega
+  { names: ["Commander Keen in Goodbye Galaxy"], genre: genres.platformer, platforms: [platforms.dos, platforms.win3x], release: 1991 }, // dev = id Software, pub = Apogee Software
+  { names: ["Commander Keen in Keen Dreams"], genre: genres.platformer, platforms: [platforms.dos, platforms.win3x], release: 1991 }, // dev = id Software, pub = Softdisk Publishing
+  { names: ["Conflict: Desert Storm"], genre: genres.thirdPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 2002 }, // dev = Pivotal Games, pub = Gotham Games, SCi Games
+  { names: ["Crazy Gravity"], genre: genres.action, platforms: [platforms.win95], release: 1996 }, // dev = XLM Software, pub = XLM Software
+  { names: ["Critical Mass"], genre: genres.strategy, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Sean O'Connor, pub = Sean O'Connor
+  { names: ["Day of the Tentacle"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos, platforms.win3x], release: 1993 }, // dev = LucasArts, pub = LucasArts
+  { names: ["Death Rally"], genre: genres.racing, platforms: [platforms.dos], release: 1996 }, // dev = Remedy Entertainment, pub = Apogee Software
+  { names: ["Eight Ball Deluxe"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = P.A.S. Systems, pub = Amtex
+  { names: ["Epic Pinball"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = Digital Extremes, pub = Epic MegaGames
+  { names: ["Extreme Assault"], genre: genres.simulation, platforms: [platforms.dos], release: 1997 }, // dev = Blue Byte, pub = Blue Byte
+  { names: ["Fire Fight"], genre: genres.action, platforms: [platforms.win95], release: 1996 }, // dev = Chaos Works, pub = Electronic Arts
+  { names: ["Galactix"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1992 }, // dev = Cygnus Multimedia Productions, pub = Cygnus Multimedia Productions
+  { names: ["GateWorld"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Homebrew Software, pub = Homebrew Software
+  { names: ["Glider 4.0"], genre: genres.action, platforms: [platforms.win3x], release: 1994 }, // dev = Casady & Greene, pub = Casady & Greene
+  { names: ["Hugo"], genre: genres.action, platforms: [platforms.dos], release: 1992 }, // dev = Silverrock Productions, pub = Silverrock Productions
+  { names: ["Ignition", "Bleifuss Fun"], genre: genres.racing, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Unique Development Studios, pub = Virgin Interactive
+  { names: ["Indiana Jones and the Fate of Atlantis"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1992 }, // dev = LucasArts, pub = LucasArts
+  { names: ["Jetpack"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Adept Software, pub = Software Creations
+  { names: ["Jill of the Jungle"], genre: genres.platformer, platforms: [platforms.dos], release: 1992 }, // dev = Epic MegaGames, pub = Epic MegaGames
+  { names: ["Major Stryker"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1993 }, // dev = Apogee, pub = Apogee
+  { names: ["Maniac Mansion"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1987 }, // dev = Lucasfilm Games, pub = Lucasfilm Games
+  { names: ["Math Blaster Plus!"], genre: genres.puzzle, platforms: [platforms.dos], release: 1987 }, // dev = Davidson & Associates, pub = Davidson & Associates
+  { names: ["MDK"], genre: genres.thirdPersonShooter, platforms: [platforms.dos, platforms.win95], release: 1997 }, // dev = Shiny Entertainment, pub = Playmates Interactive, Shiny Entertainment
+  { names: ["Metal Slug"], genre: genres.platformer, platforms: [platforms.arcade], release: 1996 }, // dev = Nazca Corporation, pub: SNK
+  { names: ["Microsoft Flight Simulator for Windows 95"], genre: genres.simulation, platforms: [platforms.win95], release: 1996 }, // dev = Microsoft, pub = Microsoft
+  { names: ["Monster Truck Madness"], genre: genres.racing, platforms: [platforms.win95], release: 1996 }, // dev = Terminal Reality, pub = Microsoft
+  { names: ["Off to Europe"], genre: genres.action, platforms: [platforms.dos], release: 1992 }, // dev = Foreign Affairs Office, Bonn, Germany, pub = Foreign Affairs Office, Bonn, Germany
+  { names: ["Operation Flashpoint: Cold War Crisis"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Bohemia Interactive Studios, pub = Codemasters
+  { names: ["Physicus: Save the World with Science!", "Physikus"], genre: genres.puzzle, platforms: [platforms.win98], release: 1999 }, // dev = HEUREKA-Klett Softwareverlag, pub = Ruske & Pühretmaier Edutainment
+  { names: ["Pipe Dream"], genre: genres.puzzle, platforms: [platforms.win3x], release: 1991 }, // dev = The Assembly Line, pub = Microsoft
+  { names: ["Prince of Persia"], genre: genres.platformer, platforms: [platforms.dos], release: 1989 }, // dev = Brøderbund, pub = Brøderbund
+  { names: ["Professor Brösl"], genre: genres.pointAndClickAdventure, platforms: [platforms.winxp], release: 2002 }, // dev = pibyte, pub = pibyte
+  { names: ["Red Baron"], genre: genres.simulation, platforms: [platforms.dos], release: 1990 }, // dev = Dynamic, pub = Sierra On-Line
+  { names: ["Shooting Gallery"], genre: genres.action, platforms: [platforms.dos], release: 1990 }, // dev = Arcanum Computing, pub = Personal Companium Software
+  { names: ["SimCity"], genre: genres.strategy, platforms: [platforms.dos], release: 1989 }, // dev = Maxis, pub = Maxis
+  { names: ["Space Cadet"], genre: genres.pinball, platforms: [platforms.win95], release: 1995 }, // dev = Microsoft, pub = Microsoft
+  { names: ["SSX Tricky"], genre: genres.racing, platforms: [platforms.ps2], release: 2001 }, // dev = Electronic Arts, pub = Electronic Arts
+  { names: ["Starfire"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1992 }, // dev = Silver Lightning Software, pub = Silver Lightning Software
+  { names: ["Star Trek: 25th Anniversary"], genre: genres.simulation, platforms: [platforms.dos], release: 1992 }, // dev = Interplay Productions, pub = Interplay Productions
+  { names: ["Star Wars Episode 1: Racer"], genre: genres.racing, platforms: [platforms.win98], release: 1999 }, // dev = LucasArts, pub = LucasArts
+  { names: ["Star Wars Episode 1: The Phantom Menace"], genre: genres.thirdPersonShooter, platforms: [platforms.win98], release: 1999 }, // dev = LucasArts, pub = LucasArts
+  { names: ["Star Wars Jedi Knight II: Jedi Outcast"], genre: genres.thirdPersonShooter, platforms: [platforms.win98], release: 2002 }, // dev = Raven Software, pub = LucasArts
+  { names: ["Star Wars: Rebel Assault"], genre: genres.action, platforms: [platforms.dos], release: 1993 }, // dev = LucasArts, pub = LucasArts
+  { names: ["Star Wars: Rebel Assault II: The Hidden Empire"], genre: genres.action, platforms: [platforms.dos, platforms.win95], release: 1995 }, // dev = LucasArts, pub = LucasArts
+  { names: ["Star Wars: Rebellion", "Star Wars: Supremacy"], genre: genres.strategy, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Coolhand Interactive, pub = LucasArts
+  { names: ["Star Wars: Rogue Squadron", "Star Wars: Rogue Squadron 3D"], genre: genres.simulation, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Factor 5, pub = LucasArts
+  { names: ["Star Wars: Shadows of the Empire"], genre: genres.thirdPersonShooter, platforms: [platforms.win95], release: 1997 }, // dev = LucasArts, pub = LucasArts
+  { names: ["Star Wars: X-Wing"], genre: genres.simulation, platforms: [platforms.dos], release: 1993 }, // dev = LucasArts, pub = LucasArts
+  { names: ["Star Wars: X-Wing vs TIE Fighter"], genre: genres.simulation, platforms: [platforms.win95], release: 1997 }, // dev = Totally Games, pub = LucasArts
+  { names: ["Star Wars: Yoda Stories"], genre: genres.rolePlayingGame, platforms: [platforms.win95], release: 1997 }, // dev = LucasArts, pub = LucasArts
+  { names: ["Submarine Titans"], genre: genres.strategy, platforms: [platforms.win98], release: 2000 }, // dev = Ellipse Studios, pub = Strategy First
+  { names: ["Sudden Strike"], genre: genres.strategy, platforms: [platforms.win98], release: 2000 }, // dev = Fireglow Games, pub = Cdv Software Entertainment, Strategy First
+  { names: ["Super Mario Bros", "Mario & Luigi"], genre: genres.platformer, platforms: [platforms.dos], release: 1994 }, // dev = Wiering Software, pub = Chaos Software
+  { names: ["Tekken 3"], genre: genres.fighting, platforms: [platforms.ps1], release: 1998 }, // dev = Namco, pub = Namco, SCE
+  { names: ["Terminal Velocity"], genre: genres.simulation, platforms: [platforms.dos, platforms.win95], release: 1995 }, // dev = Terminal Reality, 3D Realms
+  { names: ["The Games: Winter Challenge"], genre: genres.sports, platforms: [platforms.dos], release: 1991 }, // dev = MindSpan, pub = Accolade
+  { names: ["The Incredible Machine", "Pararancho"], genre: genres.puzzle, platforms: [platforms.dos, platforms.win3x], release: 1993 }, // dev = Jeff Tunnell Productions, pub = Sierra On-Line
+  { names: ["The Lion King"], genre: genres.platformer, platforms: [platforms.win3x], release: 1994 }, // dev = Westwood Studios, pub = Virgin Interactive
+  { names: ["The Settlers"], genre: genres.strategy, platforms: [platforms.dos], release: 1994 }, // dev = Blue Byte, pub = Blue Byte
+  { names: ["Tintin in Tibet"], genre: genres.platformer, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Infogrames Multimedia, pub = Infogrames Multimedia
+  { names: ["Tristan"], genre: genres.pinball, platforms: [platforms.dos], release: 1991 }, // dev = LittleWing, pub = Amtex
+  { names: ["TZ-Minigolf"], genre: genres.sports, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // ??? Jürgen Schröder? Thomas Zeh? 1995? Win3x?
+  { names: ["Vinyl Goddess from Mars"], genre: genres.platformer, platforms: [platforms.dos], release: 1995 }, // dev = Six Pound Sledge Studios, pub = Union Logic Software Publishing
+  { names: ["Wario Land: Super Mario Land 3"], genre: genres.platformer, platforms: [platforms.dos], release: 1994 }, // dev = Nintendo, pub = Nintendo
+  { names: ["Wolfenstein 3D"], genre: genres.firstPersonShooter, platforms: [platforms.dos], release: 1992 }, // dev = id Software, pub = Apogee Software
+  { names: ["Wolfpack"], genre: genres.simulation, platforms: [platforms.dos], release: 1990 }, // dev = NovaLogic, pub = Brøderbund
+  { names: ["Worms"], genre: genres.strategy, platforms: [platforms.dos], release: 1995 }, // dev = Team17, pub = Ocean Software
+  { names: ["Zak McKracken and the Alien Mindbenders"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1988 } // dev = LucasFilm Games, pub = LucasFilm Games
 ];

@@ -10,11 +10,17 @@
   <script src="filter.js"></script>
 </head>
 
-<body onload="initFilter(); initGrid()">
-  <form id="genreFilter">
-    <p class="title">Filter genre:</p>
+<body onload="initAllFilters(); initGrid()">
+  <form id="nameFilter">
+    <p class="title">Filter by name:</p>
   </form>
-  <div id="container"></div>
+  <form id="genreFilter">
+    <p class="title">Filter by genre:</p>
+  </form>
+  <form id="platformFilter">
+    <p class="title">Filter by platform:</p>
+  </form>
+  <div id="cells"></div>
 </body>
 
 </html>
