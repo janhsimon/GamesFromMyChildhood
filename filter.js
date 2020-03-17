@@ -1,17 +1,23 @@
+var nameTextfields = [];
+var genreCheckboxes = [];
+var platformCheckboxes = [];
+
 function initAllFilters() {
-  initTextFilter(document.getElementById("nameFilter"));
-  initToggleFilter(genres, document.getElementById("genreFilter"));
-  initToggleFilter(platforms, document.getElementById("platformFilter"));
+  initTextFilter(document.getElementById("nameFilter"), nameTextfields);
+  initToggleFilter(genres, document.getElementById("genreFilter"), genreCheckboxes);
+  initToggleFilter(platforms, document.getElementById("platformFilter"), platformCheckboxes);
 }
 
-function initTextFilter(form) {
-  const text = document.createElement("input");
-  text.type = "text";
-  text.oninput = filter;
-  form.appendChild(text);
+function initTextFilter(form, textfields) {
+  const textfield = document.createElement("input");
+  textfield.type = "text";
+  textfield.oninput = filter;
+  form.appendChild(textfield);
+
+  textfields.push(textfield);
 }
 
-function initToggleFilter(elements, form) {
+function initToggleFilter(elements, form, list) {
   for (const i in elements) {
     const checkbox = document.createElement("input");
     checkbox.id = i;
@@ -25,16 +31,34 @@ function initToggleFilter(elements, form) {
 
     form.appendChild(checkbox);
     form.appendChild(label);
+
+    list.push(checkbox);
   }
+
+  const noneButton = document.createElement("input");
+  noneButton.type = "button";
+  noneButton.value = "None";
+  noneButton.onclick = function () { for (const i in list) { list[i].checked = false; } filter(); };
+  form.appendChild(noneButton);
+
+  const allButton = document.createElement("input");
+  allButton.type = "button";
+  allButton.value = "All";
+  allButton.onclick = function () { for (const i in list) { list[i].checked = true; } filter(); };
+  form.appendChild(allButton);
 }
 
-function checkNameFilter(gameName, nameText) {
-  return gameName.toLowerCase().includes(nameText.trim().toLowerCase());
+function checkTextFilterContains(value, textfields) {
+  return value.toLowerCase().includes(textfields[0].value.trim().toLowerCase());
 }
 
-function checkPlatformFilter(gamePlatforms, platformCheckboxes) {
-  for (const i in gamePlatforms) {
-    if (platformCheckboxes[gamePlatforms[i].id].checked) {
+function checkToggleFilter(value, checkboxes) {
+  return checkboxes[value].checked;
+}
+
+function checkToggleFilterContains(values, checkboxes) {
+  for (const i in values) {
+    if (checkboxes[values[i].id].checked) {
       return true;
     }
   }
@@ -43,23 +67,18 @@ function checkPlatformFilter(gamePlatforms, platformCheckboxes) {
 
 function filter() {
   const cells = document.getElementById("cells").childNodes;
-
-  const nameInput = document.getElementById("nameFilter").getElementsByTagName("input")[0];
-  const genreCheckboxes = document.getElementById("genreFilter").getElementsByTagName("input");
-  const platformCheckboxes = document.getElementById("platformFilter").getElementsByTagName("input");
-
   for (const i in games) {
-    if (!checkNameFilter(games[i].names[0], nameInput.value)) {
+    if (!checkTextFilterContains(games[i].names[0], nameTextfields)) {
       cells[i].className = "hidden";
       continue;
     }
 
-    if (!genreCheckboxes[games[i].genre.id].checked) {
+    if (!checkToggleFilter(games[i].genre.id, genreCheckboxes)) {
       cells[i].className = "hidden";
       continue;
     }
 
-    if (!checkPlatformFilter(games[i].platforms, platformCheckboxes)) {
+    if (!checkToggleFilterContains(games[i].platforms, platformCheckboxes)) {
       cells[i].className = "hidden";
       continue;
     }
