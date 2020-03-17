@@ -4,13 +4,15 @@
 <head>
   <meta charset="utf-8">
   <title>Games from my Childhood</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="games.js"></script>
-  <script src="grid.js"></script>
-  <script src="filter.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/filters/text_filter.js"></script>
+  <script src="js/filters/toggle_filter.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/grid.js"></script>
 </head>
 
-<body onload="initAllFilters(); initGrid()">
+<body onload="initFilters(); initGrid()">
   <form id="nameFilter">
     <p class="title">Filter by name:</p>
   </form>

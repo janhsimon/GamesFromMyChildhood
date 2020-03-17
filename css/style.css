@@ -1,0 +1,45 @@
+﻿#cells {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+
+.cell {
+  background: #EDE7F6;
+  padding: 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.title {
+  font-weight: bold;
+}
+
+body {
+  font: 14px system-ui;
+  margin: 20px;
+}
+
+form {
+  background: #EDE7F6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+img {
+  max-width: 320px;
+  max-height: 200px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
