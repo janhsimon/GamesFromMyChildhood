@@ -48,15 +48,20 @@ function initToggleFilter(elements, form, list) {
   form.appendChild(allButton);
 }
 
-function checkTextFilterContains(value, textfields) {
-  return value.toLowerCase().includes(textfields[0].value.trim().toLowerCase());
+function textFilterContains(values, textfields) {
+  for (const i in values) {
+    if (values[i].toLowerCase().includes(textfields[0].value.trim().toLowerCase())) {
+      return true;
+    }
+  }
+  return false;
 }
 
-function checkToggleFilter(value, checkboxes) {
+function toggleFilterIsSet(value, checkboxes) {
   return checkboxes[value].checked;
 }
 
-function checkToggleFilterContains(values, checkboxes) {
+function toggleFilterContains(values, checkboxes) {
   for (const i in values) {
     if (checkboxes[values[i].id].checked) {
       return true;
@@ -68,17 +73,17 @@ function checkToggleFilterContains(values, checkboxes) {
 function filter() {
   const cells = document.getElementById("cells").childNodes;
   for (const i in games) {
-    if (!checkTextFilterContains(games[i].names[0], nameTextfields)) {
+    if (!textFilterContains(games[i].names, nameTextfields)) {
       cells[i].className = "hidden";
       continue;
     }
 
-    if (!checkToggleFilter(games[i].genre.id, genreCheckboxes)) {
+    if (!toggleFilterIsSet(games[i].genre.id, genreCheckboxes)) {
       cells[i].className = "hidden";
       continue;
     }
 
-    if (!checkToggleFilterContains(games[i].platforms, platformCheckboxes)) {
+    if (!toggleFilterContains(games[i].platforms, platformCheckboxes)) {
       cells[i].className = "hidden";
       continue;
     }
