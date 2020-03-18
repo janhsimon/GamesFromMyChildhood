@@ -1,32 +1,3 @@
-const genres = {
-  action: { name: "Action", id: 0 },
-  fighting: { name: "Fighting", id: 1 },
-  firstPersonShooter: { name: "First-Person Shooter", id: 2 },
-  pinball: { name: "Pinball", id: 3 },
-  platformer: { name: "Platformer", id: 4 },
-  pointAndClickAdventure: { name: "Point & Click Adventure", id: 5 },
-  puzzle: { name: "Puzzle", id: 6 },
-  racing: { name: "Racing", id: 7 },
-  rolePlayingGame: { name: "Role-Playing Game", id: 8 },
-  scrollingShooter: { name: "Scrolling Shooter", id: 9 },
-  simulation: { name: "Simulation", id: 10 },
-  sports: { name: "Sports", id: 11 },
-  stealth: { name: "Stealth", id: 12 },
-  strategy: { name: "Strategy", id: 13 },
-  thirdPersonShooter: { name: "Third-Person Shooter", id: 14 }
-}
-
-const platforms = {
-  arcade: { name: "Arcade", id: 0 },
-  dos: { name: "DOS", id: 1 },
-  win3x: { name: "Windows 3.x", id: 2 },
-  win95: { name: "Windows 95", id: 3 },
-  win98: { name: "Windows 98", id: 4 },
-  winxp: { name: "Windows XP", id: 5 },
-  ps1: { name: "Playstation 1", id: 6 },
-  ps2: { name: "Playstation 2", id: 7 }
-}
-
 const games = [
   { names: ["3D Ultra Minigolf"], genre: genres.sports, platforms: [platforms.win95], release: 1997 }, // dev = Dynamix, pub = Sierra On-Line 
   { names: ["3D Ultra Pinball"], genre: genres.pinball, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Dynamix, pub = Sierra On-Line 

@@ -1,9 +1,12 @@
-function initGrid() {
-  games.sort(function (a, b) { return a.names[0].toLowerCase() < b.names[0].toLowerCase() ? -1 : 1; });
-
+function updateGrid() {
   const cells = document.getElementById("cells");
-  for (const game in games) {
-    cells.appendChild(createCell(games[game]));
+  
+  while (cells.lastElementChild) {
+    cells.removeChild(cells.lastElementChild);
+  }
+
+  for (const i in games) {
+    cells.appendChild(createCell(games[i]));
   }
 }
 

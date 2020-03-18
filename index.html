@@ -5,23 +5,28 @@
   <meta charset="utf-8">
   <title>Games from my Childhood</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/filters/filter.js"></script>
-  <script src="js/filters/text_filter.js"></script>
-  <script src="js/filters/toggle_filter.js"></script>
-  <script src="js/games.js"></script>
+  <script src="js/db/genres.js"></script>
+  <script src="js/db/platforms.js"></script>
+  <script src="js/db/games.js"></script>
+  <script src="js/filter_types/text_filter.js"></script>
+  <script src="js/filter_types/toggle_filter.js"></script>
+  <script src="js/filter.js"></script>
   <script src="js/grid.js"></script>
+  <script src="js/sort.js"></script>
 </head>
 
-<body onload="initFilters(); initGrid()">
+<body onload="initFilters(); initSort(); updateGrid()">
   <form id="nameFilter">
     <p class="title">Filter by name:</p>
   </form>
   <form id="genreFilter">
     <p class="title">Filter by genre:</p>
   </form>
-  </form>
   <form id="platformFilter">
     <p class="title">Filter by platform:</p>
+  </form>
+  <form id="sort">
+    <p class="title">Sort by:</p>
   </form>
   <div id="cells"></div>
 </body>
