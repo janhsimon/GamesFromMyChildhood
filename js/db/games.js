@@ -1,6 +1,7 @@
 const games = [
   { names: ["3D Ultra Minigolf"], genre: genres.sports, platforms: [platforms.win95], release: 1997 }, // dev = Dynamix, pub = Sierra On-Line 
   { names: ["3D Ultra Pinball"], genre: genres.pinball, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Dynamix, pub = Sierra On-Line 
+  { names: ["Aces of the Deep"], genre: genres.simulation, platforms: [platforms.dos], release: 1994 }, // dev = Dynamix, pub = Sierra On-Line
   { names: ["Action Soccer"], genre: genres.sports, platforms: [platforms.dos, platforms.win3x], release: 1995 }, // dev = Ludi Media, pub = Ubi Soft
   { names: ["Actua Soccer"], genre: genres.sports, platforms: [platforms.dos, platforms.win95], release: 1995 }, // dev = Gremlin Interactive, pub = Greenwood Entertainment
   { names: ["Aladdin"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Virgin Games, pub = Sega
@@ -42,6 +43,7 @@ const games = [
   { names: ["Monster Truck Madness"], genre: genres.racing, platforms: [platforms.win95], release: 1996 }, // dev = Terminal Reality, pub = Microsoft
   { names: ["Off to Europe"], genre: genres.action, platforms: [platforms.dos], release: 1992 }, // dev = Foreign Affairs Office, Bonn, Germany, pub = Foreign Affairs Office, Bonn, Germany
   { names: ["Operation Flashpoint: Cold War Crisis"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Bohemia Interactive Studios, pub = Codemasters
+  { names: ["Paperboy 2"], genre: genres.action, platforms: [platforms.dos, platforms.nes, platforms.snes], release: 1991 }, // dev = Tengen, pub = Mindscape
   { names: ["Physicus: Save the World with Science!", "Physikus"], genre: genres.puzzle, platforms: [platforms.win98], release: 1999 }, // dev = HEUREKA-Klett Softwareverlag, pub = Ruske & Pühretmaier Edutainment
   { names: ["Pipe Dream"], genre: genres.puzzle, platforms: [platforms.win3x], release: 1991 }, // dev = The Assembly Line, pub = Microsoft
   { names: ["Prince of Persia"], genre: genres.platformer, platforms: [platforms.dos], release: 1989 }, // dev = Brøderbund, pub = Brøderbund
@@ -66,6 +68,7 @@ const games = [
   { names: ["Star Wars: Yoda Stories"], genre: genres.rolePlayingGame, platforms: [platforms.win95], release: 1997 }, // dev = LucasArts, pub = LucasArts
   { names: ["Submarine Titans"], genre: genres.strategy, platforms: [platforms.win98], release: 2000 }, // dev = Ellipse Studios, pub = Strategy First
   { names: ["Sudden Strike"], genre: genres.strategy, platforms: [platforms.win98], release: 2000 }, // dev = Fireglow Games, pub = Cdv Software Entertainment, Strategy First
+  { names: ["Super Castlevania IV"], genre: genres.platformer, platforms: [platforms.snes], release: 1991 }, // dev = Konami, pub = Konami
   { names: ["Super Mario Bros", "Mario & Luigi"], genre: genres.platformer, platforms: [platforms.dos], release: 1994 }, // dev = Wiering Software, pub = Chaos Software
   { names: ["Tekken 3"], genre: genres.fighting, platforms: [platforms.ps1], release: 1998 }, // dev = Namco, pub = Namco, SCE
   { names: ["Terminal Velocity"], genre: genres.simulation, platforms: [platforms.dos, platforms.win95], release: 1995 }, // dev = Terminal Reality, 3D Realms

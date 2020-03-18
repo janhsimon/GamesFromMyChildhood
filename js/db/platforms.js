@@ -5,6 +5,8 @@ const platforms = {
   win95: { name: "Windows 95", id: 3 },
   win98: { name: "Windows 98", id: 4 },
   winxp: { name: "Windows XP", id: 5 },
-  ps1: { name: "Playstation 1", id: 6 },
-  ps2: { name: "Playstation 2", id: 7 }
+  nes: { name: "NES", id: 6 },
+  snes: { name: "SNES", id: 7 },
+  ps1: { name: "Playstation 1", id: 8 },
+  ps2: { name: "Playstation 2", id: 9 }
 }
