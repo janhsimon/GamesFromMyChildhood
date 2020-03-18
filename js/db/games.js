@@ -22,6 +22,7 @@ const games = [
   { names: ["Critical Mass"], genre: genres.strategy, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Sean O'Connor, pub = Sean O'Connor
   { names: ["Day of the Tentacle"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos, platforms.win3x], release: 1993 }, // dev = LucasArts, pub = LucasArts
   { names: ["Death Rally"], genre: genres.racing, platforms: [platforms.dos], release: 1996 }, // dev = Remedy Entertainment, pub = Apogee Software
+  { names: ["Deathmatch Classic"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Valve, pub = Sierra On-Line
   { names: ["Eight Ball Deluxe"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = P.A.S. Systems, pub = Amtex
   { names: ["Epic Pinball"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = Digital Extremes, pub = Epic MegaGames
   { names: ["Extreme Assault"], genre: genres.simulation, platforms: [platforms.dos], release: 1997 }, // dev = Blue Byte, pub = Blue Byte
@@ -30,6 +31,9 @@ const games = [
   { names: ["GateWorld"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Homebrew Software, pub = Homebrew Software
   { names: ["Glider 4.0"], genre: genres.action, platforms: [platforms.win3x], release: 1994 }, // dev = Casady & Greene, pub = Casady & Greene
   { names: ["Gorillas"], genre: genres.puzzle, platforms: [platforms.dos], release: 1991 }, // dev = IBM, pub = IBM
+  { names: ["Half-Life"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 1998 }, // dev = Valve, pub = Sierra On-Line
+  { names: ["Half-Life: Blue Shift"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Gearbox Software, pub = Sierra On-Line
+  { names: ["Half-Life: Opposing Force"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 1999 }, // dev = Gearbox Software, pub = Sierra On-Line
   { names: ["Hugo"], genre: genres.action, platforms: [platforms.dos], release: 1992 }, // dev = Silverrock Productions, pub = Silverrock Productions
   { names: ["Ignition", "Bleifuss Fun"], genre: genres.racing, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Unique Development Studios, pub = Virgin Interactive
   { names: ["Indiana Jones and the Fate of Atlantis"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1992 }, // dev = LucasArts, pub = LucasArts
@@ -51,6 +55,7 @@ const games = [
   { names: ["Prince of Persia"], genre: genres.platformer, platforms: [platforms.dos], release: 1989 }, // dev = Brøderbund, pub = Brøderbund
   { names: ["Professor Brösl"], genre: genres.pointAndClickAdventure, platforms: [platforms.winxp], release: 2002 }, // dev = pibyte, pub = pibyte
   { names: ["Red Baron"], genre: genres.simulation, platforms: [platforms.dos], release: 1990 }, // dev = Dynamic, pub = Sierra On-Line
+  { names: ["Ricochet"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2000 }, // dev = Valve, pub = Sierra On-Line
   { names: ["Shooting Gallery"], genre: genres.action, platforms: [platforms.dos], release: 1990 }, // dev = Arcanum Computing, pub = Personal Companium Software
   { names: ["SimCity"], genre: genres.strategy, platforms: [platforms.dos], release: 1989 }, // dev = Maxis, pub = Maxis
   { names: ["Space Cadet"], genre: genres.pinball, platforms: [platforms.win95], release: 1995 }, // dev = Microsoft, pub = Microsoft
