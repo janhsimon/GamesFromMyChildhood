@@ -20,6 +20,7 @@ const games = [
   { names: ["Cool Spot"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Virgin Games, pub = Virgin Games
   { names: ["Crazy Gravity"], genre: genres.action, platforms: [platforms.win95], release: 1996 }, // dev = XLM Software, pub = XLM Software
   { names: ["Critical Mass"], genre: genres.strategy, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Sean O'Connor, pub = Sean O'Connor
+  { names: ["Counter-Strike"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2000 }, // dev = Valve, pub = Sierra On-Line
   { names: ["Day of the Tentacle"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos, platforms.win3x], release: 1993 }, // dev = LucasArts, pub = LucasArts
   { names: ["Death Rally"], genre: genres.racing, platforms: [platforms.dos], release: 1996 }, // dev = Remedy Entertainment, pub = Apogee Software
   { names: ["Deathmatch Classic"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Valve, pub = Sierra On-Line
@@ -42,6 +43,8 @@ const games = [
   { names: ["Major Stryker"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1993 }, // dev = Apogee, pub = Apogee
   { names: ["Maniac Mansion"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1987 }, // dev = Lucasfilm Games, pub = Lucasfilm Games
   { names: ["Math Blaster Plus!"], genre: genres.puzzle, platforms: [platforms.dos], release: 1987 }, // dev = Davidson & Associates, pub = Davidson & Associates
+  { names: ["Max Payne"], genre: genres.thirdPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 2001 }, // dev = Remedy, pub = Gathering of Developers
+  { names: ["Max Payne 2: The Fall of Max Payne"], genre: genres.thirdPersonShooter, platforms: [platforms.winxp, platforms.ps2], release: 2003 }, // dev = Remedy, pub = Rockstar Games
   { names: ["MDK"], genre: genres.thirdPersonShooter, platforms: [platforms.dos, platforms.win95], release: 1997 }, // dev = Shiny Entertainment, pub = Playmates Interactive, Shiny Entertainment
   { names: ["Metal Slug"], genre: genres.platformer, platforms: [platforms.arcade], release: 1996 }, // dev = Nazca Corporation, pub: SNK
   { names: ["Microsoft Flight Simulator for Windows 95"], genre: genres.simulation, platforms: [platforms.win95], release: 1996 }, // dev = Microsoft, pub = Microsoft
