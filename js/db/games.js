@@ -4,7 +4,9 @@ const games = [
   { names: ["Aces of the Deep"], genre: genres.simulation, platforms: [platforms.dos], release: 1994 }, // dev = Dynamix, pub = Sierra On-Line
   { names: ["Action Soccer"], genre: genres.sports, platforms: [platforms.dos, platforms.win3x], release: 1995 }, // dev = Ludi Media, pub = Ubi Soft
   { names: ["Actua Soccer"], genre: genres.sports, platforms: [platforms.dos, platforms.win95], release: 1995 }, // dev = Gremlin Interactive, pub = Greenwood Entertainment
+  { names: ["Age of Empires II: The Age of Kings"], genre: genres.strategy, platforms: [platforms.win98], release: 1999 }, // dev = Ensemble Studios, pub = Microsoft
   { names: ["Aladdin"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Virgin Games, pub = Sega
+  { names: ["America's Army"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.winxp], release: 2002 }, // dev = US Army, pub = US Army
   { names: ["Anno 1602: Creation of a New World"], genre: genres.strategy, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Max Design, pub = Sunflowers Interactive, GT Interactive
   { names: ["Arcade America"], genre: genres.platformer, platforms: [platforms.win95], release: 1996 }, // dev = 7th Level, pub = 7th Level
   { names: ["Battle Chess"], genre: genres.puzzle, platforms: [platforms.dos, platforms.win3x], release: 1989 }, // dev = Interplay Productions, pub = Interplay Productions
@@ -53,6 +55,8 @@ const games = [
   { names: ["SimCity"], genre: genres.strategy, platforms: [platforms.dos], release: 1989 }, // dev = Maxis, pub = Maxis
   { names: ["Space Cadet"], genre: genres.pinball, platforms: [platforms.win95], release: 1995 }, // dev = Microsoft, pub = Microsoft
   { names: ["SSX Tricky"], genre: genres.racing, platforms: [platforms.ps2], release: 2001 }, // dev = Electronic Arts, pub = Electronic Arts
+  { names: ["StarCraft"], genre: genres.strategy, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Blizzard Entertainment, pub = Blizzard Entertainment
+  { names: ["StarCraft: Brood War"], genre: genres.strategy, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Blizzard Entertainment, pub = Blizzard Entertainment
   { names: ["Starfire"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1992 }, // dev = Silver Lightning Software, pub = Silver Lightning Software
   { names: ["Star Trek: 25th Anniversary"], genre: genres.simulation, platforms: [platforms.dos], release: 1992 }, // dev = Interplay Productions, pub = Interplay Productions
   { names: ["Star Wars Episode 1: Racer"], genre: genres.racing, platforms: [platforms.win98], release: 1999 }, // dev = LucasArts, pub = LucasArts
