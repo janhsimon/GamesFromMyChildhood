@@ -21,6 +21,7 @@
 body {
   font: 14px system-ui;
   margin: 20px;
+  overflow-y: scroll;
 }
 
 form {
