@@ -10,6 +10,7 @@ function initFilters() {
 
 function updateFilters() {
   const cells = document.getElementById("cells").childNodes;
+  let gamesShown = 0;
   for (const i in games) {
     if (!nameFilter.contains(games[i].names)) {
       cells[i].className = "hidden";
@@ -27,5 +28,14 @@ function updateFilters() {
     }
 
     cells[i].className = "cell";
+    gamesShown++;
+  }
+
+  const info = document.getElementById("info");
+  if (gamesShown == games.length) {
+    info.textContent = "Showing all " + gamesShown + " games";
+  }
+  else {
+    info.textContent = "Showing " + gamesShown + " of " + games.length + " games";
   }
 }
