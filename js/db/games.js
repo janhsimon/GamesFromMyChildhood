@@ -17,6 +17,11 @@ const games = [
   { names: ["Commander Keen in Goodbye Galaxy"], genre: genres.platformer, platforms: [platforms.dos, platforms.win3x], release: 1991 }, // dev = id Software, pub = Apogee Software
   { names: ["Commander Keen in Keen Dreams"], genre: genres.platformer, platforms: [platforms.dos, platforms.win3x], release: 1991 }, // dev = id Software, pub = Softdisk Publishing
   { names: ["Commandos 2: Men of Courage"], genre: genres.stealth, platforms: [platforms.win98, platforms.winxp, platforms.ps2], release: 2001 }, // dev = Pyro Studios, pub = Eidos Interactive
+  { names: ["Command & Conquer: Renegade"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.winxp], release: 2002 }, // dev = Westwood Studios, pub = Electronic Arts
+  { names: ["Command & Conquer: Tiberian Dawn"], genre: genres.strategy, platforms: [platforms.dos, platforms.win95, platforms.ps1], release: 1995 }, // dev = Westwood Studios, pub = Virgin Interactive
+  { names: ["Command & Conquer: Tiberian Sun"], genre: genres.strategy, platforms: [platforms.win98], release: 1999 }, // dev = Westwood Studios, pub = Electronic Arts
+  { names: ["Command & Conquer: Red Alert"], genre: genres.strategy, platforms: [platforms.dos, platforms.win95, platforms.ps1], release: 1996 }, // dev = Westwood Studios, pub = Virgin Interactive
+  { names: ["Command & Conquer: Red Alert 2"], genre: genres.strategy, platforms: [platforms.winxp], release: 2000 }, // dev = Westwood Studios, pub = Electronic Arts
   { names: ["Conflict: Desert Storm"], genre: genres.thirdPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 2002 }, // dev = Pivotal Games, pub = Gotham Games, SCi Games
   { names: ["Congo: Descent into Zinj"], genre: genres.puzzle, platforms: [platforms.win3x], release: 1995 }, // dev = Illumina Productions, pub = Viacom New Media
   { names: ["Cool Spot"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Virgin Games, pub = Virgin Games
