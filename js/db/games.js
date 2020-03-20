@@ -29,6 +29,7 @@ const games = [
   { names: ["Descent"], genre: genres.simulation, platforms: [platforms.dos, platforms.ps1], release: 1995 }, // dev = Parallax Software, pub = Interplay Productions
   { names: ["Descent II"], genre: genres.simulation, platforms: [platforms.dos, platforms.ps1], release: 1996 }, // dev = Parallax Software, pub = Interplay Productions
   { names: ["Descent 3"], genre: genres.simulation, platforms: [platforms.win98], release: 1999 }, // dev = Outrage Entertainment, pub = Interplay Productions
+  { names: ["Desperados: Wanted Dead or Alive"], genre: genres.stealth, platforms: [platforms.win98], release: 2001 }, // dev = Spellbound Entertainment, pub = Infogrames Multimedia
   { names: ["Eight Ball Deluxe"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = P.A.S. Systems, pub = Amtex
   { names: ["Epic Pinball"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = Digital Extremes, pub = Epic MegaGames
   { names: ["Extreme Assault"], genre: genres.simulation, platforms: [platforms.dos], release: 1997 }, // dev = Blue Byte, pub = Blue Byte
@@ -45,6 +46,7 @@ const games = [
   { names: ["Half-Life"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 1998 }, // dev = Valve, pub = Sierra On-Line
   { names: ["Half-Life: Blue Shift"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Gearbox Software, pub = Sierra On-Line
   { names: ["Half-Life: Opposing Force"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 1999 }, // dev = Gearbox Software, pub = Sierra On-Line
+  { names: ["Hamsterball"], genre: genres.action, platforms: [platforms.winxp], release: 2004 }, // dev = Raptisoft Games, pub = Raptisoft Games
   { names: ["Hugo"], genre: genres.action, platforms: [platforms.dos], release: 1992 }, // dev = Silverrock Productions, pub = Silverrock Productions
   { names: ["Ignition", "Bleifuss Fun"], genre: genres.racing, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Unique Development Studios, pub = Virgin Interactive
   { names: ["Indiana Jones and the Fate of Atlantis"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1992 }, // dev = LucasArts, pub = LucasArts
@@ -100,6 +102,8 @@ const games = [
   { names: ["The Settlers"], genre: genres.strategy, platforms: [platforms.dos], release: 1994 }, // dev = Blue Byte, pub = Blue Byte
   { names: ["Thief: The Dark Project"], genre: genres.stealth, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Looking Glass Studios, pub = Eidos Interactive
   { names: ["Tintin in Tibet"], genre: genres.platformer, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Infogrames Multimedia, pub = Infogrames Multimedia
+  { names: ["Tiny Toon Adventures: Buster Busts Loose!"], genre: genres.platformer, platforms: [platforms.snes], release: 1993 }, // dev = Konami, pub = Konami
+  { names: ["Tony Hawk's Pro Skater 2"], genre: genres.sports, platforms: [platforms.win98], release: 2000 }, // dev = Neversoft, pub = Activision
   { names: ["Tristan"], genre: genres.pinball, platforms: [platforms.dos], release: 1991 }, // dev = LittleWing, pub = Amtex
   { names: ["TZ-Minigolf"], genre: genres.sports, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // ??? Jürgen Schröder? Thomas Zeh? 1995? Win3x?
   { names: ["Vinyl Goddess from Mars"], genre: genres.platformer, platforms: [platforms.dos], release: 1995 }, // dev = Six Pound Sledge Studios, pub = Union Logic Software Publishing
