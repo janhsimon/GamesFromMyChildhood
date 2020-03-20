@@ -10,6 +10,7 @@ const games = [
   { names: ["Anno 1602: Creation of a New World"], genre: genres.strategy, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Max Design, pub = Sunflowers Interactive, GT Interactive
   { names: ["Arcade America"], genre: genres.platformer, platforms: [platforms.win95], release: 1996 }, // dev = 7th Level, pub = 7th Level
   { names: ["Battle Chess"], genre: genres.puzzle, platforms: [platforms.dos, platforms.win3x], release: 1989 }, // dev = Interplay Productions, pub = Interplay Productions
+  { names: ["Battlefield 1942"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.winxp], release: 2002 }, // dev = Digital Illusions, pub = Electronic Arts
   { names: ["Bernie"], genre: genres.puzzle, platforms: [platforms.dos], release: 1995 }, // dev = Siemens, pub = MindLink Software
   { names: ["Charly the Clown"], genre: genres.platformer, platforms: [platforms.dos], release: 1996 }, // dev = White Magic, pub = Schenk & Horn
   { names: ["Comix Zone"], genre: genres.platformer, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Sega, pub = Sega
@@ -32,6 +33,9 @@ const games = [
   { names: ["GateWorld"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Homebrew Software, pub = Homebrew Software
   { names: ["Glider 4.0"], genre: genres.action, platforms: [platforms.win3x], release: 1994 }, // dev = Casady & Greene, pub = Casady & Greene
   { names: ["Gorillas"], genre: genres.puzzle, platforms: [platforms.dos], release: 1991 }, // dev = IBM, pub = IBM
+  { names: ["Grand Theft Auto 2"], genre: genres.action, platforms: [platforms.win98, platforms.ps1], release: 1999 }, // dev = DMA Design, pub = Rockstar Games
+  { names: ["Grand Theft Auto III"], genre: genres.action, platforms: [platforms.win98, platforms.ps2], release: 2001 }, // dev = DMA Design, pub = Rockstar Games
+  { names: ["Grand Theft Auto: Vice City"], genre: genres.action, platforms: [platforms.win98, platforms.ps2], release: 2002 }, // dev = Rockstar North, pub = Rockstar Games
   { names: ["Half-Life"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 1998 }, // dev = Valve, pub = Sierra On-Line
   { names: ["Half-Life: Blue Shift"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Gearbox Software, pub = Sierra On-Line
   { names: ["Half-Life: Opposing Force"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 1999 }, // dev = Gearbox Software, pub = Sierra On-Line
