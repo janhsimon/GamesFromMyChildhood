@@ -39,6 +39,7 @@ const games = [
   { names: ["Epic Pinball"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = Digital Extremes, pub = Epic MegaGames
   { names: ["Extreme Assault"], genre: genres.simulation, platforms: [platforms.dos], release: 1997 }, // dev = Blue Byte, pub = Blue Byte
   { names: ["Fire Fight"], genre: genres.action, platforms: [platforms.win95], release: 1996 }, // dev = Chaos Works, pub = Electronic Arts
+  { names: ["Frets on Fire"], genre: genres.music, platforms: [platforms.winxp], release: 2006 }, // dev = Unreal Voodoo, pub = Unreal Voodoo
   { names: ["Galactix"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1992 }, // dev = Cygnus Multimedia Productions, pub = Cygnus Multimedia Productions
   { names: ["GateWorld"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Homebrew Software, pub = Homebrew Software
   { names: ["Glider 4.0"], genre: genres.action, platforms: [platforms.win3x], release: 1994 }, // dev = Casady & Greene, pub = Casady & Greene
@@ -61,6 +62,7 @@ const games = [
   { names: ["Max Payne"], genre: genres.thirdPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 2001 }, // dev = Remedy, pub = Gathering of Developers
   { names: ["Max Payne 2: The Fall of Max Payne"], genre: genres.thirdPersonShooter, platforms: [platforms.winxp, platforms.ps2], release: 2003 }, // dev = Remedy, pub = Rockstar Games
   { names: ["MDK"], genre: genres.thirdPersonShooter, platforms: [platforms.dos, platforms.win95], release: 1997 }, // dev = Shiny Entertainment, pub = Playmates Interactive, Shiny Entertainment
+  { names: ["MegaRace 2"], genre: genres.racing, platforms: [platforms.dos], release: 1996 }, // dev = Cryo, pub: Mindscape
   { names: ["Metal Slug"], genre: genres.platformer, platforms: [platforms.arcade], release: 1996 }, // dev = Nazca Corporation, pub: SNK
   { names: ["Microsoft Flight Simulator for Windows 95"], genre: genres.simulation, platforms: [platforms.win95], release: 1996 }, // dev = Microsoft, pub = Microsoft
   { names: ["Micro Machines"], genre: genres.racing, platforms: [platforms.dos], release: 1994 }, // dev = Codemasters, pub = Codemasters
@@ -106,10 +108,12 @@ const games = [
   { names: ["Thief: The Dark Project"], genre: genres.stealth, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Looking Glass Studios, pub = Eidos Interactive
   { names: ["Tintin in Tibet"], genre: genres.platformer, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Infogrames Multimedia, pub = Infogrames Multimedia
   { names: ["Tiny Toon Adventures: Buster Busts Loose!"], genre: genres.platformer, platforms: [platforms.snes], release: 1993 }, // dev = Konami, pub = Konami
+  { names: ["Tom Clancy's Splinter Cell"], genre: genres.stealth, platforms: [platforms.winxp, platforms.ps2], release: 2002 }, // dev = Ubisoft, pub = Ubisoft
   { names: ["Tony Hawk's Pro Skater 2"], genre: genres.sports, platforms: [platforms.win98], release: 2000 }, // dev = Neversoft, pub = Activision
   { names: ["Tristan"], genre: genres.pinball, platforms: [platforms.dos], release: 1991 }, // dev = LittleWing, pub = Amtex
   { names: ["TZ-Minigolf"], genre: genres.sports, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // ??? Jürgen Schröder? Thomas Zeh? 1995? Win3x?
   { names: ["Vinyl Goddess from Mars"], genre: genres.platformer, platforms: [platforms.dos], release: 1995 }, // dev = Six Pound Sledge Studios, pub = Union Logic Software Publishing
+  { names: ["Walaber's Trampoline"], genre: genres.sports, platforms: [platforms.winxp], release: 2006 }, // dev = Walaber Entertainment, pub = Walaber Entertainment
   { names: ["Wario Land: Super Mario Land 3"], genre: genres.platformer, platforms: [platforms.dos], release: 1994 }, // dev = Nintendo, pub = Nintendo
   { names: ["Wolfenstein 3D"], genre: genres.firstPersonShooter, platforms: [platforms.dos], release: 1992 }, // dev = id Software, pub = Apogee Software
   { names: ["Wolfpack"], genre: genres.simulation, platforms: [platforms.dos], release: 1990 }, // dev = NovaLogic, pub = Brøderbund
