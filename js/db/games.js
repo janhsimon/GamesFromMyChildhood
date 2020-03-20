@@ -18,6 +18,7 @@ const games = [
   { names: ["Commander Keen in Keen Dreams"], genre: genres.platformer, platforms: [platforms.dos, platforms.win3x], release: 1991 }, // dev = id Software, pub = Softdisk Publishing
   { names: ["Commandos 2: Men of Courage"], genre: genres.stealth, platforms: [platforms.win98, platforms.winxp, platforms.ps2], release: 2001 }, // dev = Pyro Studios, pub = Eidos Interactive
   { names: ["Conflict: Desert Storm"], genre: genres.thirdPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 2002 }, // dev = Pivotal Games, pub = Gotham Games, SCi Games
+  { names: ["Congo: Descent into Zinj"], genre: genres.puzzle, platforms: [platforms.win3x], release: 1995 }, // dev = Illumina Productions, pub = Viacom New Media
   { names: ["Cool Spot"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Virgin Games, pub = Virgin Games
   { names: ["Crazy Gravity"], genre: genres.action, platforms: [platforms.win95], release: 1996 }, // dev = XLM Software, pub = XLM Software
   { names: ["Critical Mass"], genre: genres.strategy, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Sean O'Connor, pub = Sean O'Connor
@@ -25,10 +26,15 @@ const games = [
   { names: ["Day of the Tentacle"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos, platforms.win3x], release: 1993 }, // dev = LucasArts, pub = LucasArts
   { names: ["Death Rally"], genre: genres.racing, platforms: [platforms.dos], release: 1996 }, // dev = Remedy Entertainment, pub = Apogee Software
   { names: ["Deathmatch Classic"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Valve, pub = Sierra On-Line
+  { names: ["Descent"], genre: genres.simulation, platforms: [platforms.dos, platforms.ps1], release: 1995 }, // dev = Parallax Software, pub = Interplay Productions
+  { names: ["Descent II"], genre: genres.simulation, platforms: [platforms.dos, platforms.ps1], release: 1996 }, // dev = Parallax Software, pub = Interplay Productions
+  { names: ["Descent 3"], genre: genres.simulation, platforms: [platforms.win98], release: 1999 }, // dev = Outrage Entertainment, pub = Interplay Productions
   { names: ["Eight Ball Deluxe"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = P.A.S. Systems, pub = Amtex
   { names: ["Epic Pinball"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = Digital Extremes, pub = Epic MegaGames
   { names: ["Extreme Assault"], genre: genres.simulation, platforms: [platforms.dos], release: 1997 }, // dev = Blue Byte, pub = Blue Byte
   { names: ["Fire Fight"], genre: genres.action, platforms: [platforms.win95], release: 1996 }, // dev = Chaos Works, pub = Electronic Arts
+  { names: ["Galactix"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1992 }, // dev = Cygnus Multimedia Productions, pub = Cygnus Multimedia Productions
+  { names: ["Galactix"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1992 }, // dev = Cygnus Multimedia Productions, pub = Cygnus Multimedia Productions
   { names: ["Galactix"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1992 }, // dev = Cygnus Multimedia Productions, pub = Cygnus Multimedia Productions
   { names: ["GateWorld"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Homebrew Software, pub = Homebrew Software
   { names: ["Glider 4.0"], genre: genres.action, platforms: [platforms.win3x], release: 1994 }, // dev = Casady & Greene, pub = Casady & Greene
