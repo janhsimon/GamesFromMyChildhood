@@ -35,6 +35,7 @@ const games = [
   { names: ["Descent II"], genre: genres.simulation, platforms: [platforms.dos, platforms.ps1], release: 1996 }, // dev = Parallax Software, pub = Interplay Productions
   { names: ["Descent 3"], genre: genres.simulation, platforms: [platforms.win98], release: 1999 }, // dev = Outrage Entertainment, pub = Interplay Productions
   { names: ["Desperados: Wanted Dead or Alive"], genre: genres.stealth, platforms: [platforms.win98], release: 2001 }, // dev = Spellbound Entertainment, pub = Infogrames Multimedia
+  { names: ["Die Original Moorhuhnjagd"], genre: genres.action, platforms: [platforms.win98], release: 1999 }, // dev = Witan Entertainment BV, pub = Ravensburger Interactive Media GmbH
   { names: ["Eight Ball Deluxe"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = P.A.S. Systems, pub = Amtex
   { names: ["Epic Pinball"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = Digital Extremes, pub = Epic MegaGames
   { names: ["Extreme Assault"], genre: genres.simulation, platforms: [platforms.dos], release: 1997 }, // dev = Blue Byte, pub = Blue Byte
@@ -42,6 +43,7 @@ const games = [
   { names: ["Frets on Fire"], genre: genres.music, platforms: [platforms.winxp], release: 2006 }, // dev = Unreal Voodoo, pub = Unreal Voodoo
   { names: ["Galactix"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1992 }, // dev = Cygnus Multimedia Productions, pub = Cygnus Multimedia Productions
   { names: ["GateWorld"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Homebrew Software, pub = Homebrew Software
+  { names: ["Gish"], genre: genres.platformer, platforms: [platforms.winxp], release: 2004 }, // dev = Cryptic Sea, pub = Chronic Logic
   { names: ["Glider 4.0"], genre: genres.action, platforms: [platforms.win3x], release: 1994 }, // dev = Casady & Greene, pub = Casady & Greene
   { names: ["Gorillas"], genre: genres.puzzle, platforms: [platforms.dos], release: 1991 }, // dev = IBM, pub = IBM
   { names: ["Grand Theft Auto 2"], genre: genres.action, platforms: [platforms.win98, platforms.ps1], release: 1999 }, // dev = DMA Design, pub = Rockstar Games
@@ -51,11 +53,13 @@ const games = [
   { names: ["Half-Life: Blue Shift"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Gearbox Software, pub = Sierra On-Line
   { names: ["Half-Life: Opposing Force"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 1999 }, // dev = Gearbox Software, pub = Sierra On-Line
   { names: ["Hamsterball"], genre: genres.action, platforms: [platforms.winxp], release: 2004 }, // dev = Raptisoft Games, pub = Raptisoft Games
+  { names: ["Hellbender"], genre: genres.simulation, platforms: [platforms.win95], release: 1996 }, // dev = Terminal Reality, pub = Microsoft
   { names: ["Hugo"], genre: genres.action, platforms: [platforms.dos], release: 1992 }, // dev = Silverrock Productions, pub = Silverrock Productions
   { names: ["Ignition", "Bleifuss Fun"], genre: genres.racing, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Unique Development Studios, pub = Virgin Interactive
   { names: ["Indiana Jones and the Fate of Atlantis"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1992 }, // dev = LucasArts, pub = LucasArts
   { names: ["Jetpack"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Adept Software, pub = Software Creations
   { names: ["Jill of the Jungle"], genre: genres.platformer, platforms: [platforms.dos], release: 1992 }, // dev = Epic MegaGames, pub = Epic MegaGames
+  { names: ["Lego Island"], genre: genres.action, platforms: [platforms.win95], release: 1997 }, // dev = Mindscape, pub = Mindscape
   { names: ["Major Stryker"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1993 }, // dev = Apogee, pub = Apogee
   { names: ["Maniac Mansion"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1987 }, // dev = Lucasfilm Games, pub = Lucasfilm Games
   { names: ["Math Blaster Plus!"], genre: genres.puzzle, platforms: [platforms.dos], release: 1987 }, // dev = Davidson & Associates, pub = Davidson & Associates
