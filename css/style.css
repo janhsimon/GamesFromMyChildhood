@@ -15,12 +15,13 @@
 }
 
 .title {
+  color: white;
   font-weight: bold;
 }
 
 body {
   background: #272727;
-  color: #d0d0d0;
+  color: #a2a2a2;
   font: 14px system-ui;
   margin: 20px;
   overflow-y: scroll;
@@ -33,10 +34,36 @@ form {
   padding: 10px;
 }
 
+.text {
+  background: black;
+  border: 1px solid #525252;
+  color: #d0d0d0;
+  padding: 4px;
+}
+
+.button {
+  background: #272727;
+  border: 1px solid #525252;
+  color: #d0d0d0;
+  padding: 3px 10px;
+  margin-right: 5px;
+}
+
+.button:hover {
+  color: white;
+}
+
 label {
+  color: white;
   margin-right: 10px;
 }
 
+select {
+  background: #272727;
+  border: 1px solid #525252;
+  color: #d0d0d0;
+  padding: 4px;
+}
 img {
   max-width: 320px;
   max-height: 200px;

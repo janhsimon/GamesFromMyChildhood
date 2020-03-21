@@ -24,12 +24,14 @@ function ToggleFilter(options, formId) {
   const noneButton = document.createElement("input");
   noneButton.type = "button";
   noneButton.value = "None";
+  noneButton.className = "button";
   noneButton.onclick = function () { for (const i in self.checkboxes) { self.checkboxes[i].checked = false; } updateFilters(); };
   form.appendChild(noneButton);
 
   const allButton = document.createElement("input");
   allButton.type = "button";
   allButton.value = "All";
+  allButton.className = "button";
   allButton.onclick = function () { for (const i in self.checkboxes) { self.checkboxes[i].checked = true; } updateFilters(); };
   form.appendChild(allButton);
 
