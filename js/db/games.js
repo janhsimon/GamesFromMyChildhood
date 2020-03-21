@@ -38,6 +38,7 @@ const games = [
   { names: ["Die Original Moorhuhnjagd"], genre: genres.action, platforms: [platforms.win98], release: 1999 }, // dev = Witan Entertainment BV, pub = Ravensburger Interactive Media GmbH
   { names: ["Eight Ball Deluxe"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = P.A.S. Systems, pub = Amtex
   { names: ["Epic Pinball"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = Digital Extremes, pub = Epic MegaGames
+  { names: ["Excitebike"], genre: genres.racing, platforms: [platforms.nes], release: 1985 }, // dev = Nintendo, pub = Nintendo
   { names: ["Extreme Assault"], genre: genres.simulation, platforms: [platforms.dos], release: 1997 }, // dev = Blue Byte, pub = Blue Byte
   { names: ["Fire Fight"], genre: genres.action, platforms: [platforms.win95], release: 1996 }, // dev = Chaos Works, pub = Electronic Arts
   { names: ["Frets on Fire"], genre: genres.music, platforms: [platforms.winxp], release: 2006 }, // dev = Unreal Voodoo, pub = Unreal Voodoo
@@ -59,6 +60,7 @@ const games = [
   { names: ["Indiana Jones and the Fate of Atlantis"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1992 }, // dev = LucasArts, pub = LucasArts
   { names: ["Jetpack"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Adept Software, pub = Software Creations
   { names: ["Jill of the Jungle"], genre: genres.platformer, platforms: [platforms.dos], release: 1992 }, // dev = Epic MegaGames, pub = Epic MegaGames
+  { names: ["Kung Fu"], genre: genres.action, platforms: [platforms.nes], release: 1985 }, // dev = Nintendo, pub = Nintendo
   { names: ["Lego Island"], genre: genres.action, platforms: [platforms.win95], release: 1997 }, // dev = Mindscape, pub = Mindscape
   { names: ["Major Stryker"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1993 }, // dev = Apogee, pub = Apogee
   { names: ["Maniac Mansion"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1987 }, // dev = Lucasfilm Games, pub = Lucasfilm Games
@@ -71,6 +73,7 @@ const games = [
   { names: ["Microsoft Flight Simulator for Windows 95"], genre: genres.simulation, platforms: [platforms.win95], release: 1996 }, // dev = Microsoft, pub = Microsoft
   { names: ["Micro Machines"], genre: genres.racing, platforms: [platforms.dos], release: 1994 }, // dev = Codemasters, pub = Codemasters
   { names: ["Monster Truck Madness"], genre: genres.racing, platforms: [platforms.win95], release: 1996 }, // dev = Terminal Reality, pub = Microsoft
+  { names: ["Ninja Gaiden", "Ninja Ryūkenden"], genre: genres.platformer, platforms: [platforms.nes], release: 1988 }, // dev = Tecmo, pub = Tecmo
   { names: ["Off to Europe"], genre: genres.action, platforms: [platforms.dos], release: 1992 }, // dev = Foreign Affairs Office, Bonn, Germany, pub = Foreign Affairs Office, Bonn, Germany
   { names: ["Operation Flashpoint: Cold War Crisis"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2001 }, // dev = Bohemia Interactive Studios, pub = Codemasters
   { names: ["Paperboy 2"], genre: genres.action, platforms: [platforms.dos, platforms.nes, platforms.snes], release: 1991 }, // dev = Tengen, pub = Mindscape
@@ -107,6 +110,7 @@ const games = [
   { names: ["Terminal Velocity"], genre: genres.simulation, platforms: [platforms.dos, platforms.win95], release: 1995 }, // dev = Terminal Reality, 3D Realms
   { names: ["The Games: Winter Challenge"], genre: genres.sports, platforms: [platforms.dos], release: 1991 }, // dev = MindSpan, pub = Accolade
   { names: ["The Incredible Machine", "Pararancho"], genre: genres.puzzle, platforms: [platforms.dos, platforms.win3x], release: 1993 }, // dev = Jeff Tunnell Productions, pub = Sierra On-Line
+  { names: ["The Legend of Zelda", "The Hyrule Fantasy: The Legend of Zelda 1"], genre: genres.action, platforms: [platforms.nes], release: 1986 }, // dev = Nintendo, pub = Nintendo
   { names: ["The Lion King"], genre: genres.platformer, platforms: [platforms.win3x], release: 1994 }, // dev = Westwood Studios, pub = Virgin Interactive
   { names: ["The Settlers"], genre: genres.strategy, platforms: [platforms.dos], release: 1994 }, // dev = Blue Byte, pub = Blue Byte
   { names: ["Thief: The Dark Project"], genre: genres.stealth, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Looking Glass Studios, pub = Eidos Interactive
@@ -119,6 +123,7 @@ const games = [
   { names: ["Vinyl Goddess from Mars"], genre: genres.platformer, platforms: [platforms.dos], release: 1995 }, // dev = Six Pound Sledge Studios, pub = Union Logic Software Publishing
   { names: ["Walaber's Trampoline"], genre: genres.sports, platforms: [platforms.winxp], release: 2006 }, // dev = Walaber Entertainment, pub = Walaber Entertainment
   { names: ["Wario Land: Super Mario Land 3"], genre: genres.platformer, platforms: [platforms.dos], release: 1994 }, // dev = Nintendo, pub = Nintendo
+  { names: ["Whomp 'Em", "Saiyūki World 2: Tenjōkai no Majin"], genre: genres.platformer, platforms: [platforms.nes], release: 1990 }, // dev = Jaleco, pub = Jaleco
   { names: ["Wolfenstein 3D"], genre: genres.firstPersonShooter, platforms: [platforms.dos], release: 1992 }, // dev = id Software, pub = Apogee Software
   { names: ["Wolfpack"], genre: genres.simulation, platforms: [platforms.dos], release: 1990 }, // dev = NovaLogic, pub = Brøderbund
   { names: ["Worms"], genre: genres.strategy, platforms: [platforms.dos], release: 1995 }, // dev = Team17, pub = Ocean Software
