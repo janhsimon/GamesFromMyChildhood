@@ -9,7 +9,8 @@ const games = [
   { names: ["America's Army"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.winxp], release: 2002 }, // dev = US Army, pub = US Army
   { names: ["Anno 1602: Creation of a New World"], genre: genres.strategy, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Max Design, pub = Sunflowers Interactive, GT Interactive
   { names: ["Arcade America"], genre: genres.platformer, platforms: [platforms.win95], release: 1996 }, // dev = 7th Level, pub = 7th Level
-  { names: ["Battle Chess"], genre: genres.puzzle, platforms: [platforms.dos, platforms.win3x], release: 1989 }, // dev = Interplay Productions, pub = Interplay Productions
+  { names: ["Archon Ultra"], genre: genres.strategy, platforms: [platforms.dos], release: 1994 }, // dev = Free Fall Associates, pub = Strategic Simulations
+  { names: ["Battle Chess"], genre: genres.strategy, platforms: [platforms.dos, platforms.win3x], release: 1989 }, // dev = Interplay Productions, pub = Interplay Productions
   { names: ["Battlefield 1942"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.winxp], release: 2002 }, // dev = Digital Illusions, pub = Electronic Arts
   { names: ["Bernie"], genre: genres.puzzle, platforms: [platforms.dos], release: 1995 }, // dev = Siemens, pub = MindLink Software
   { names: ["Charly the Clown"], genre: genres.platformer, platforms: [platforms.dos], release: 1996 }, // dev = White Magic, pub = Schenk & Horn
@@ -55,6 +56,8 @@ const games = [
   { names: ["Half-Life: Opposing Force"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 1999 }, // dev = Gearbox Software, pub = Sierra On-Line
   { names: ["Hamsterball"], genre: genres.action, platforms: [platforms.winxp], release: 2004 }, // dev = Raptisoft Games, pub = Raptisoft Games
   { names: ["Hellbender"], genre: genres.simulation, platforms: [platforms.win95], release: 1996 }, // dev = Terminal Reality, pub = Microsoft
+  { names: ["Hitman: Codename 47"], genre: genres.stealth, platforms: [platforms.win98], release: 2000 }, // dev = IO Interactive, pub = Eidos Interactive
+  { names: ["Hitman 2: Silent Assassin"], genre: genres.stealth, platforms: [platforms.win98, platforms.winxp, platforms.ps2], release: 2002 }, // dev = IO Interactive, pub = Eidos Interactive
   { names: ["Hugo"], genre: genres.action, platforms: [platforms.dos], release: 1992 }, // dev = Silverrock Productions, pub = Silverrock Productions
   { names: ["Ignition", "Bleifuss Fun"], genre: genres.racing, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Unique Development Studios, pub = Virgin Interactive
   { names: ["Indiana Jones and the Fate of Atlantis"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1992 }, // dev = LucasArts, pub = LucasArts
@@ -62,6 +65,7 @@ const games = [
   { names: ["Jill of the Jungle"], genre: genres.platformer, platforms: [platforms.dos], release: 1992 }, // dev = Epic MegaGames, pub = Epic MegaGames
   { names: ["Kung Fu"], genre: genres.action, platforms: [platforms.nes], release: 1985 }, // dev = Nintendo, pub = Nintendo
   { names: ["Lego Island"], genre: genres.action, platforms: [platforms.win95], release: 1997 }, // dev = Mindscape, pub = Mindscape
+  { names: ["Mafia: The City Of Lost Heaven"], genre: genres.action, platforms: [platforms.win98, platforms.winxp, platforms.ps2], release: 2002 }, // dev = Illusion Softworks, pub = Gathering of Developers
   { names: ["Major Stryker"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1993 }, // dev = Apogee, pub = Apogee
   { names: ["Maniac Mansion"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1987 }, // dev = Lucasfilm Games, pub = Lucasfilm Games
   { names: ["Math Blaster Plus!"], genre: genres.puzzle, platforms: [platforms.dos], release: 1987 }, // dev = Davidson & Associates, pub = Davidson & Associates
@@ -108,6 +112,7 @@ const games = [
   { names: ["Super Mario Bros", "Mario & Luigi"], genre: genres.platformer, platforms: [platforms.dos], release: 1994 }, // dev = Wiering Software, pub = Chaos Software
   { names: ["Tekken 3"], genre: genres.fighting, platforms: [platforms.ps1], release: 1998 }, // dev = Namco, pub = Namco, SCE
   { names: ["Terminal Velocity"], genre: genres.simulation, platforms: [platforms.dos, platforms.win95], release: 1995 }, // dev = Terminal Reality, 3D Realms
+  { names: ["The Amazing Spider-Man"], genre: genres.platformer, platforms: [platforms.gb], release: 1991 }, // dev = Rare, pub = LJN, Nintendo
   { names: ["The Games: Winter Challenge"], genre: genres.sports, platforms: [platforms.dos], release: 1991 }, // dev = MindSpan, pub = Accolade
   { names: ["The Incredible Machine", "Pararancho"], genre: genres.puzzle, platforms: [platforms.dos, platforms.win3x], release: 1993 }, // dev = Jeff Tunnell Productions, pub = Sierra On-Line
   { names: ["The Legend of Zelda", "The Hyrule Fantasy: The Legend of Zelda 1"], genre: genres.action, platforms: [platforms.nes], release: 1986 }, // dev = Nintendo, pub = Nintendo
