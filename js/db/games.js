@@ -1,4 +1,5 @@
 const games = [
+  { names: ["3D Pinball for Windows – Space Cadet"], genre: genres.pinball, platforms: [platforms.win95, platforms.win98, platforms.winxp], release: 1995 }, // dev = Microsoft, pub = Microsoft 
   { names: ["3D Ultra Minigolf"], genre: genres.sports, platforms: [platforms.win95], release: 1997 }, // dev = Dynamix, pub = Sierra On-Line 
   { names: ["3D Ultra Pinball"], genre: genres.pinball, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Dynamix, pub = Sierra On-Line 
   { names: ["Aces of the Deep"], genre: genres.simulation, platforms: [platforms.dos], release: 1994 }, // dev = Dynamix, pub = Sierra On-Line
@@ -11,6 +12,7 @@ const games = [
   { names: ["Arcade America"], genre: genres.platformer, platforms: [platforms.win95], release: 1996 }, // dev = 7th Level, pub = 7th Level
   { names: ["Archon Ultra"], genre: genres.strategy, platforms: [platforms.dos], release: 1994 }, // dev = Free Fall Associates, pub = Strategic Simulations
   { names: ["Bang! Bang!"], genre: genres.puzzle, platforms: [platforms.win3x], release: 1990 }, // dev = David B. Lutton II, pub = David B. Lutton II
+  { names: ["Battle Bugs"], genre: genres.strategy, platforms: [platforms.dos, platforms.ps1], release: 1994 }, // dev = Epyx, pub = Sierra On-Line
   { names: ["Battle Chess"], genre: genres.strategy, platforms: [platforms.dos, platforms.win3x], release: 1989 }, // dev = Interplay Productions, pub = Interplay Productions
   { names: ["Battlefield 1942"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.winxp], release: 2002 }, // dev = Digital Illusions, pub = Electronic Arts
   { names: ["Bernie"], genre: genres.puzzle, platforms: [platforms.dos], release: 1995 }, // dev = Siemens, pub = MindLink Software
@@ -60,6 +62,7 @@ const games = [
   { names: ["Hellbender"], genre: genres.simulation, platforms: [platforms.win95], release: 1996 }, // dev = Terminal Reality, pub = Microsoft
   { names: ["Hitman: Codename 47"], genre: genres.stealth, platforms: [platforms.win98], release: 2000 }, // dev = IO Interactive, pub = Eidos Interactive
   { names: ["Hitman 2: Silent Assassin"], genre: genres.stealth, platforms: [platforms.win98, platforms.winxp, platforms.ps2], release: 2002 }, // dev = IO Interactive, pub = Eidos Interactive
+  { names: ["Hover!"], genre: genres.action, platforms: [platforms.win95], release: 1995 }, // dev = Microsoft, pub = Microsoft
   { names: ["Hugo"], genre: genres.action, platforms: [platforms.dos], release: 1992 }, // dev = Silverrock Productions, pub = Silverrock Productions
   { names: ["Ignition", "Bleifuss Fun"], genre: genres.racing, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Unique Development Studios, pub = Virgin Interactive
   { names: ["Indiana Jones and the Fate of Atlantis"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1992 }, // dev = LucasArts, pub = LucasArts
@@ -128,6 +131,8 @@ const games = [
   { names: ["Tony Hawk's Pro Skater 2"], genre: genres.sports, platforms: [platforms.win98], release: 2000 }, // dev = Neversoft, pub = Activision
   { names: ["Tristan"], genre: genres.pinball, platforms: [platforms.dos], release: 1991 }, // dev = LittleWing, pub = Amtex
   { names: ["TZ-Minigolf"], genre: genres.sports, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // ??? Jürgen Schröder? Thomas Zeh? 1995? Win3x?
+  { names: ["Unreal II: The Awakening"], genre: genres.firstPersonShooter, platforms: [platforms.winxp], release: 2003 }, // dev = Legend Entertainment, pub = Infogrames Multimedia
+  { names: ["Unreal Tournament"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 1999 }, // dev = Epic MegaGames, pub = GT Interactive
   { names: ["Vinyl Goddess from Mars"], genre: genres.platformer, platforms: [platforms.dos], release: 1995 }, // dev = Six Pound Sledge Studios, pub = Union Logic Software Publishing
   { names: ["Walaber's Trampoline"], genre: genres.sports, platforms: [platforms.winxp], release: 2006 }, // dev = Walaber Entertainment, pub = Walaber Entertainment
   { names: ["Wario Land: Super Mario Land 3"], genre: genres.platformer, platforms: [platforms.dos], release: 1994 }, // dev = Nintendo, pub = Nintendo
