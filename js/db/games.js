@@ -10,9 +10,11 @@ const games = [
   { names: ["Anno 1602: Creation of a New World"], genre: genres.strategy, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Max Design, pub = Sunflowers Interactive, GT Interactive
   { names: ["Arcade America"], genre: genres.platformer, platforms: [platforms.win95], release: 1996 }, // dev = 7th Level, pub = 7th Level
   { names: ["Archon Ultra"], genre: genres.strategy, platforms: [platforms.dos], release: 1994 }, // dev = Free Fall Associates, pub = Strategic Simulations
+  { names: ["Bang! Bang!"], genre: genres.puzzle, platforms: [platforms.win3x], release: 1990 }, // dev = David B. Lutton II, pub = David B. Lutton II
   { names: ["Battle Chess"], genre: genres.strategy, platforms: [platforms.dos, platforms.win3x], release: 1989 }, // dev = Interplay Productions, pub = Interplay Productions
   { names: ["Battlefield 1942"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.winxp], release: 2002 }, // dev = Digital Illusions, pub = Electronic Arts
   { names: ["Bernie"], genre: genres.puzzle, platforms: [platforms.dos], release: 1995 }, // dev = Siemens, pub = MindLink Software
+  { names: ["Castlevania: Aria of Sorrow"], genre: genres.platformer, platforms: [platforms.gba], release: 2003 }, // dev = Konami, pub = Konami
   { names: ["Charly the Clown"], genre: genres.platformer, platforms: [platforms.dos], release: 1996 }, // dev = White Magic, pub = Schenk & Horn
   { names: ["Comix Zone"], genre: genres.platformer, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Sega, pub = Sega
   { names: ["Commander Keen in Goodbye Galaxy"], genre: genres.platformer, platforms: [platforms.dos, platforms.win3x], release: 1991 }, // dev = id Software, pub = Apogee Software
@@ -65,6 +67,7 @@ const games = [
   { names: ["Jill of the Jungle"], genre: genres.platformer, platforms: [platforms.dos], release: 1992 }, // dev = Epic MegaGames, pub = Epic MegaGames
   { names: ["Kung Fu"], genre: genres.action, platforms: [platforms.nes], release: 1985 }, // dev = Nintendo, pub = Nintendo
   { names: ["Lego Island"], genre: genres.action, platforms: [platforms.win95], release: 1997 }, // dev = Mindscape, pub = Mindscape
+  { names: ["Lemmings"], genre: genres.puzzle, platforms: [platforms.dos, platforms.snes], release: 1991 }, // dev = DMA Design, pub = Psygnosis
   { names: ["Mafia: The City Of Lost Heaven"], genre: genres.action, platforms: [platforms.win98, platforms.winxp, platforms.ps2], release: 2002 }, // dev = Illusion Softworks, pub = Gathering of Developers
   { names: ["Major Stryker"], genre: genres.scrollingShooter, platforms: [platforms.dos], release: 1993 }, // dev = Apogee, pub = Apogee
   { names: ["Maniac Mansion"], genre: genres.pointAndClickAdventure, platforms: [platforms.dos], release: 1987 }, // dev = Lucasfilm Games, pub = Lucasfilm Games
@@ -129,6 +132,7 @@ const games = [
   { names: ["Walaber's Trampoline"], genre: genres.sports, platforms: [platforms.winxp], release: 2006 }, // dev = Walaber Entertainment, pub = Walaber Entertainment
   { names: ["Wario Land: Super Mario Land 3"], genre: genres.platformer, platforms: [platforms.dos], release: 1994 }, // dev = Nintendo, pub = Nintendo
   { names: ["Whomp 'Em", "Saiyūki World 2: Tenjōkai no Majin"], genre: genres.platformer, platforms: [platforms.nes], release: 1990 }, // dev = Jaleco, pub = Jaleco
+  { names: ["WinTrek"], genre: genres.simulation, platforms: [platforms.win3x], release: 1992 }, // dev = Joseph Jaworski, pub = Joseph Jaworski
   { names: ["Wolfenstein 3D"], genre: genres.firstPersonShooter, platforms: [platforms.dos], release: 1992 }, // dev = id Software, pub = Apogee Software
   { names: ["Wolfpack"], genre: genres.simulation, platforms: [platforms.dos], release: 1990 }, // dev = NovaLogic, pub = Brøderbund
   { names: ["Worms"], genre: genres.strategy, platforms: [platforms.dos], release: 1995 }, // dev = Team17, pub = Ocean Software

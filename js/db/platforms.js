@@ -6,8 +6,9 @@ const platforms = {
   win98: { name: "Windows 98", id: 4 },
   winxp: { name: "Windows XP", id: 5 },
   gb: { name: "Game Boy", id: 6 },
-  nes: { name: "NES", id: 7 },
-  snes: { name: "SNES", id: 8 },
-  ps1: { name: "Playstation 1", id: 9 },
-  ps2: { name: "Playstation 2", id: 10 }
+  gba: { name: "Game Boy Advance", id: 7 },
+  nes: { name: "NES", id: 8 },
+  snes: { name: "SNES", id: 9 },
+  ps1: { name: "Playstation 1", id: 10 },
+  ps2: { name: "Playstation 2", id: 11 }
 }
