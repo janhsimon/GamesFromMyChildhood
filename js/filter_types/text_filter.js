@@ -4,6 +4,7 @@ function TextFilter(formId) {
   this.textfield = document.createElement("input");
   this.textfield.type = "text";
   this.textfield.className = "text";
+  this.textfield.placeholder = "Search";
   this.textfield.oninput = updateFilters;
   form.appendChild(this.textfield);
   
