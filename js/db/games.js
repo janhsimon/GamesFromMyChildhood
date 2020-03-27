@@ -2,9 +2,12 @@ const games = [
   { names: ["3D Pinball for Windows – Space Cadet"], genre: genres.pinball, platforms: [platforms.win95, platforms.win98, platforms.winxp], release: 1995 }, // dev = Microsoft, pub = Microsoft 
   { names: ["3D Ultra Minigolf"], genre: genres.sports, platforms: [platforms.win95], release: 1997 }, // dev = Dynamix, pub = Sierra On-Line 
   { names: ["3D Ultra Pinball"], genre: genres.pinball, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // dev = Dynamix, pub = Sierra On-Line 
+  { names: ["5 Days a Stranger"], genre: genres.pointAndClickAdventure, platforms: [platforms.winxp], release: 2003 }, // dev = Yahtzee, pub = Yahtzee 
+  { names: ["7 Days a Skeptic"], genre: genres.pointAndClickAdventure, platforms: [platforms.winxp], release: 2004 }, // dev = Yahtzee, pub = Yahtzee 
   { names: ["Aces of the Deep"], genre: genres.simulation, platforms: [platforms.dos], release: 1994 }, // dev = Dynamix, pub = Sierra On-Line
   { names: ["Action Soccer"], genre: genres.sports, platforms: [platforms.dos, platforms.win3x], release: 1995 }, // dev = Ludi Media, pub = Ubi Soft
   { names: ["Actua Soccer"], genre: genres.sports, platforms: [platforms.dos, platforms.win95], release: 1995 }, // dev = Gremlin Interactive, pub = Greenwood Entertainment
+  { names: ["Adventures in the Galaxy of Fantabulous Wonderment"], genre: genres.pointAndClickAdventure, platforms: [platforms.winxp], release: 2005 }, // dev = Yahtzee, pub = Yahtzee
   { names: ["Age of Empires II: The Age of Kings"], genre: genres.strategy, platforms: [platforms.win98], release: 1999 }, // dev = Ensemble Studios, pub = Microsoft
   { names: ["Aladdin"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Virgin Games, pub = Sega
   { names: ["America's Army"], genre: genres.firstPersonShooter, platforms: [platforms.win98, platforms.winxp], release: 2002 }, // dev = US Army, pub = US Army
@@ -26,7 +29,7 @@ const games = [
   { names: ["Command & Conquer: Tiberian Dawn"], genre: genres.strategy, platforms: [platforms.dos, platforms.win95, platforms.ps1], release: 1995 }, // dev = Westwood Studios, pub = Virgin Interactive
   { names: ["Command & Conquer: Tiberian Sun"], genre: genres.strategy, platforms: [platforms.win98], release: 1999 }, // dev = Westwood Studios, pub = Electronic Arts
   { names: ["Command & Conquer: Red Alert"], genre: genres.strategy, platforms: [platforms.dos, platforms.win95, platforms.ps1], release: 1996 }, // dev = Westwood Studios, pub = Virgin Interactive
-  { names: ["Command & Conquer: Red Alert 2"], genre: genres.strategy, platforms: [platforms.winxp], release: 2000 }, // dev = Westwood Studios, pub = Electronic Arts
+  { names: ["Command & Conquer: Red Alert 2"], genre: genres.strategy, platforms: [platforms.win98, platforms.winxp], release: 2000 }, // dev = Westwood Studios, pub = Electronic Arts
   { names: ["Conflict: Desert Storm"], genre: genres.thirdPersonShooter, platforms: [platforms.win98, platforms.ps2], release: 2002 }, // dev = Pivotal Games, pub = Gotham Games, SCi Games
   { names: ["Congo: Descent into Zinj"], genre: genres.puzzle, platforms: [platforms.win3x], release: 1995 }, // dev = Illumina Productions, pub = Viacom New Media
   { names: ["Cool Spot"], genre: genres.platformer, platforms: [platforms.dos], release: 1993 }, // dev = Virgin Games, pub = Virgin Games
