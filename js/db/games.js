@@ -44,6 +44,7 @@ const games = [
   { names: ["Descent 3"], genre: genres.simulation, platforms: [platforms.win98], release: 1999 }, // dev = Outrage Entertainment, pub = Interplay Productions
   { names: ["Desperados: Wanted Dead or Alive"], genre: genres.stealth, platforms: [platforms.win98], release: 2001 }, // dev = Spellbound Entertainment, pub = Infogrames Multimedia
   { names: ["Die Original Moorhuhnjagd"], genre: genres.action, platforms: [platforms.win98], release: 1999 }, // dev = Witan Entertainment BV, pub = Ravensburger Interactive Media GmbH
+  { names: ["DoDonPachi"], genre: genres.scrollingShooter, platforms: [platforms.arcade], release: 1997 }, // dev = Cave, pub = Atlus
   { names: ["Eight Ball Deluxe"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = P.A.S. Systems, pub = Amtex
   { names: ["Epic Pinball"], genre: genres.pinball, platforms: [platforms.dos], release: 1993 }, // dev = Digital Extremes, pub = Epic MegaGames
   { names: ["Excitebike"], genre: genres.racing, platforms: [platforms.nes], release: 1985 }, // dev = Nintendo, pub = Nintendo
@@ -98,6 +99,7 @@ const games = [
   { names: ["Ricochet"], genre: genres.firstPersonShooter, platforms: [platforms.win98], release: 2000 }, // dev = Valve, pub = Sierra On-Line
   { names: ["Shooting Gallery"], genre: genres.action, platforms: [platforms.dos], release: 1990 }, // dev = Arcanum Computing, pub = Personal Companium Software
   { names: ["SimCity"], genre: genres.strategy, platforms: [platforms.dos], release: 1989 }, // dev = Maxis, pub = Maxis
+  { names: ["SimCopter"], genre: genres.simulation, platforms: [platforms.win95], release: 1996 }, // dev = Maxis, pub = Maxis
   { names: ["Space Cadet"], genre: genres.pinball, platforms: [platforms.win95], release: 1995 }, // dev = Microsoft, pub = Microsoft
   { names: ["SSX Tricky"], genre: genres.racing, platforms: [platforms.ps2], release: 2001 }, // dev = Electronic Arts, pub = Electronic Arts
   { names: ["StarCraft"], genre: genres.strategy, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Blizzard Entertainment, pub = Blizzard Entertainment
@@ -132,6 +134,7 @@ const games = [
   { names: ["Tiny Toon Adventures: Buster Busts Loose!"], genre: genres.platformer, platforms: [platforms.snes], release: 1993 }, // dev = Konami, pub = Konami
   { names: ["Tom Clancy's Splinter Cell"], genre: genres.stealth, platforms: [platforms.winxp, platforms.ps2], release: 2002 }, // dev = Ubisoft, pub = Ubisoft
   { names: ["Tony Hawk's Pro Skater 2"], genre: genres.sports, platforms: [platforms.win98], release: 2000 }, // dev = Neversoft, pub = Activision
+  { names: ["Toribash"], genre: genres.action, platforms: [platforms.winxp], release: 2006 }, // dev = Nabi Studios, pub = Nicalis
   { names: ["Tristan"], genre: genres.pinball, platforms: [platforms.dos], release: 1991 }, // dev = LittleWing, pub = Amtex
   { names: ["TZ-Minigolf"], genre: genres.sports, platforms: [platforms.win3x, platforms.win95], release: 1995 }, // ??? Jürgen Schröder? Thomas Zeh? 1995? Win3x?
   { names: ["Unreal II: The Awakening"], genre: genres.firstPersonShooter, platforms: [platforms.winxp], release: 2003 }, // dev = Legend Entertainment, pub = Infogrames Multimedia
