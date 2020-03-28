@@ -16,18 +16,12 @@
 </head>
 
 <body onload="initFilters(); initSort(); updateGrid(); updateFilters()">
-  <form id="nameFilter">
-    <p class="title">Filter by name:</p>
-  </form>
-  <form id="genreFilter">
-    <p class="title">Filter by genre:</p>
-  </form>
-  <form id="platformFilter">
-    <p class="title">Filter by platform:</p>
-  </form>
-  <form id="sort">
-    <p class="title">Sort by:</p>
-  </form>
+  <div id="topbar">
+    <div id="genreFilter"></div>
+    <div id="platformFilter"></div>
+    <div id="nameFilter"></div>
+    <div id="sort"></div>
+  </div>
   <p id="info"></p>
   <div id="cells"></div>
 </body>

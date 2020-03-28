@@ -30,28 +30,37 @@ function initSort() {
   const form = document.getElementById("sort");
 
   const select = document.createElement("select");
+  select.id = form.id + "Select";
   select.onchange = updateSort;
-  form.appendChild(select);
 
   const name = document.createElement("option");
   name.value = "name";
   name.innerText = "Name";
-  select.appendChild(name);
 
   const namerev = document.createElement("option");
   namerev.value = "namerev";
   namerev.innerText = "Name (reversed)";
-  select.appendChild(namerev);
 
   const release = document.createElement("option");
   release.value = "release";
   release.innerText = "Release date";
-  select.appendChild(release);
 
   const releaserev = document.createElement("option");
   releaserev.value = "releaserev";
   releaserev.innerText = "Release date (reversed)";
+  
+  const label = document.createElement("label");
+  label.htmlFor = select.id;
+  label.innerText = "Sort by:";
+  
+  form.appendChild(label);
+
+  select.appendChild(name); 
+  select.appendChild(namerev);
+  select.appendChild(release);
   select.appendChild(releaserev);
+  
+  form.appendChild(select);
 
   games.sort(sortByName);
 }
