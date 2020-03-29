@@ -7,20 +7,23 @@ body {
 }
 
 
-/* top bar*/
+/* header */
 
 #nameFilter {
-  margin-top: 10px;
   margin-left: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   float: left;
 }
 
-#sort {
-  margin-top: 10px;
+#info {
+  margin-top: 5px;
   margin-right: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   float: right;
+}
+
+#genreFilter {
+  clear: both;
 }
 
 .text {
@@ -45,6 +48,7 @@ body {
 
 fieldset {
   border: 1px solid #525252;
+  margin-bottom: 5px;
 }
 
 label, legend {
@@ -63,16 +67,14 @@ select {
   padding: 4px;
 }
 
-
-/* info label */
-
-#info {
-  clear: both;
-  text-align: right;
+#sort {
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-bottom: 20px;
 }
 
 
-/* cells */
+/* main */
 
 #cells {
   display: grid;
