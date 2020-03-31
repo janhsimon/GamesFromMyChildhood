@@ -3,7 +3,7 @@ function TextFilter(text, placeholderText, containerId) {
 
   this.textfield = document.createElement("input");
   this.textfield.type = "text";
-  this.textfield.id = container.id + "Textfield";
+  //this.textfield.id = container.id + "Textfield";
   this.textfield.className = "text";
   this.textfield.placeholder = placeholderText;
   this.textfield.oninput = updateFilters;
@@ -12,7 +12,7 @@ function TextFilter(text, placeholderText, containerId) {
   label.htmlFor = this.textfield.id;
   label.innerText = text;
   
-  container.appendChild(label);
+  //container.appendChild(label);
   container.appendChild(this.textfield);
   
   this.contains = function (values) {
