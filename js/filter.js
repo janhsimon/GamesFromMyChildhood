@@ -3,9 +3,9 @@ var genreFilter;
 var platformFilter;
 
 function initFilters() {
-  nameFilter = new TextFilter( "Search:", "Search", "nameFilter");
-  genreFilter = new ToggleFilter("Genres:", "genreFilter", genres);
-  platformFilter = new ToggleFilter("Platforms:", "platformFilter", platforms);
+  nameFilter = new TextFilter("Search", "search");
+  genreFilter = new ToggleFilter("Genres:", "genres", genres);
+  platformFilter = new ToggleFilter("Platforms:", "platforms", platforms);
 }
 
 function updateFilters() {
