@@ -129,6 +129,7 @@ const games = [
   { names: ["The Legend of Zelda", "The Hyrule Fantasy: The Legend of Zelda 1"], genre: genres.action, platforms: [platforms.nes], release: 1986 }, // dev = Nintendo, pub = Nintendo
   { names: ["The Lion King"], genre: genres.platformer, platforms: [platforms.win3x], release: 1994 }, // dev = Westwood Studios, pub = Virgin Interactive
   { names: ["The Settlers"], genre: genres.strategy, platforms: [platforms.dos], release: 1994 }, // dev = Blue Byte, pub = Blue Byte
+  { names: ["The Watchmaker"], genre: genres.pointAndClickAdventure, platforms: [platforms.win98], release:2001 }, // dev = Trecision, pub = Got Game Entertainment
   { names: ["Thief: The Dark Project"], genre: genres.stealth, platforms: [platforms.win95, platforms.win98], release: 1998 }, // dev = Looking Glass Studios, pub = Eidos Interactive
   { names: ["Tintin in Tibet"], genre: genres.platformer, platforms: [platforms.dos, platforms.win95], release: 1996 }, // dev = Infogrames Multimedia, pub = Infogrames Multimedia
   { names: ["Tiny Toon Adventures: Buster Busts Loose!"], genre: genres.platformer, platforms: [platforms.snes], release: 1993 }, // dev = Konami, pub = Konami
